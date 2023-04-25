@@ -1,6 +1,6 @@
 # DESCRIÇÃO DO PROBLEMA
 
-Astra vende cocada na UFPA todos os dias. Seu dia de trabalho é puxado, pela manhã e tarde ele vende os doces que prepara na noite anterior. Cada cocada é vendida por R$ 3,00. Contudo, de modo a melhorar seu negócio, ele deve <u>decidir quantos jornais comprará do seu fornecedor para atender seus clientes diários</u>, de modo a **maximizar o seu lucro**.
+Astra vende cocada na UFPA todos os dias. Seu dia de trabalho é puxado, pela manhã e tarde ele vende os doces que prepara na noite anterior. Cada cocada é vendida por R$ 3,00. Contudo, de modo a melhorar seu negócio, ele deve <u>decidir quantas cocadas produzirá para atender seus clientes diários</u>, de modo a **maximizar o seu lucro**.
 
 Astra tem compromisso com a saúde de seus clientes e, portanto, os doces não vendidos ao longo do dia são consumidos por sua família, logo, Astra não tem lucro com estas unidades de cocada. 
 
