@@ -3,12 +3,48 @@
 Materiais utilizados na disciplina EC01019 - PROBABILIDADE E ESTATISTICA ministrada no quarto semestre da [Faculdade de Engenharia da Computação e Telecomunicações](https://www.itec.ufpa.br/index.php?option=com_content&view=article&id=211:faculdade-de-engenharia-da-computacao-e-telecomunicacoes&catid=74&Itemid=114&lang=pt) da [Universidade Federal do Pará](https://ufpa.br/).
 
 **Sumário**
-
+- [Introdução](#introdução)
+    - [Objetivo](#objetivo)
+    - [Habilidades e competências](#habilidades-e-competências)
+    - [Procedimentos didáticos](#procedimentos-didáticos)
+    - [Ementa](#ementa)
+    - [Procedimentos de Avaliação da Aprendizagem](#procedimentos-de-avaliação-da-aprendizagem)   
 - [Plano de estudos](#plano-de-estudos)
+    - [Notas](#notas)
     - [Conteúdo](#conteúdo)
-    
+ 
+# Introdução
+
+## Objetivo:
+
+Desenvolver o pensamento estocástico necessário para compreensão da incerteza no mundo e desenvolver habilidades com ferramental básico e clássico para manipulação de dados, verificação de hipóteses e condução de experimentos aleatórios.
+
+## Habilidades e competências:
+
+De modo geral, ao final do curso, o estudante será capaz de compreender e manipular modelos probabilísticos e estatísticos, realizar inferência a partir de dados amostrais e conduzir experimentos aleatórios com o auxílio do computador. O estudante deve consultar o link abaixo para ter uma visão específica dos termos, fatos e habilidades que deverá adquirir em cada módulo do curso.
+
+https://docs.google.com/spreadsheets/d/15R9ZITIc7s0otTVd9TS286px-yRMrCe_ODU0XgsQ6pk/pubhtml?gid=1068955295&single=true
+
+## Procedimentos didáticos:
+
+O conteúdo teórico e demonstrações práticas serão ministradas por meio de encontros síncronos presenciais. Como suporte, os estudantes serão direcionados também para vídeos e textos curtos selecionados a partir de uma curadoria cuidadosa de diferentes fontes e de autoria do próprio docente. Preferencialmente, serão utilizados os materiais disponíveis na plataforma Khan Academy, onde foi construída uma turma para acompanhamento dos discentes. 
+
+Para fixação do conteúdo serão disponibilizados exercícios auto-corrigidos por meio da plataforma Khan Academy. O estudante será encorajado ainda a realizar experimentos práticos (denominados laboratórios), listas de exercícios e pesquisa sobre tópicos específicos.
+
+## Ementa:
+
+Introdução à probabilidade. Análise Combinatória. Variáveis aleatórias unidimensionais. Funções de uma variável aleatória e valores esperados. Esperança Matemática. Distribuições conjuntas de probabilidade. Variáveis aleatórias de duas ou mais dimensões (vetores aleatórios). Importantes distribuições discretas e contínuas. A distribuição normal. Introdução à estatística e descrição de dados. Amostras aleatórias e distribuições de amostras. Estimação de parâmetros. Testes de hipóteses. Projeto e análise de experimentos estatísticos. Regressão linear simples e correlação. Regressão múltipla.
+
+## Procedimentos de Avaliação da Aprendizagem:	
+A frequência será computada pela presença nos encontros e realização das atividades.
+
+A avaliação individual de cada estudante será construída com base em uma avaliação holística com diversas atividades, compreendendo: Laboratórios, Exercícios na plataforma Khan Academy e outros exercícios selecionados pelo docente (50%), Exame A (25%) e Exame B (25%).
+
+Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), REG([5,7[), BOM ([7,9[), EXC([9,10]).    
 
 # Plano de estudos
+
+## Notas
 
 ## Conteúdo
 
