@@ -48,7 +48,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 
 ## Conteúdo
 
-|  | **Introdução à disciplina**                                          |
+| <a href='https://docs.google.com/presentation/d/13A9858jJfUX6pqx1ZYWN3YBXRNogXG9on6cey2KaD_I/edit#slide=id.gf23522db66_0_137' target="_blank"><img alt='googleslides' src='https://img.shields.io/badge/Google_Slides-100000?style=flat&logo=googleslides&logoColor=FBBC04&labelColor=FFFFFF&color=FFFFFF'/></a> | **Introdução à disciplina**                                          |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Como é que passa nessa matéria?                      |
 | **Termos:**    | forma de avaliação, conteúdo, exercícios, plano de estudo individual, vídeos, encontros síncronos, ciência de dados, estatística, análise de dados |
