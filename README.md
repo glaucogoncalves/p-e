@@ -69,7 +69,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Definições:**| Váriavel Aleatória (VA), Distribuição de probabilidade, VAs independentes, Esperança, Esperança de VAs, Variância de VAs, Covariância, Desigualdade de Markov, Desigualdade de Chebyshev, Lei dos Grandes Números, Variáveis aleatórias de duas ou mais dimensões, Vetores aleatórios, Distribuições de probabilidade conjunta. |
 | **Termos:**    | VAs contínuas, VAs discretas, função de densidade de probabilidade, fdp, pdf, cdf, funções de densidade acumulada, amostras independentes e identicamente distribuídas, i.i.d. |
 | **Fatos:**     | Propriedades das funções de densidade de probabilidade, Esperança é linear, Propriedades da Variância, VAs independentes tem covariância zero, Variância como Covariância. |
-| **Habilidades:** | Interpretar a notação de funções de probabilidade de VAs (ex: P(X=x); f(x); F(x); f(x|y)), interpretar e calcular a esperança de uma VA. |
+| **Habilidades:** |Interpretar a notação de funções de probabilidade de variáveis aleatórias (ex: $\(P(X = x)\); \(f(x)\); \(F(x)\); \(f(x \mid y)\))$, interpretar e calcular a esperança de uma variável aleatória ($\(\mathbb{E}[X]\$)).|
 
 | <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/Material_de_Aula/05_Distribui%C3%A7%C3%B5es_de_Probabilidade_%C3%9Ateis.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Funções de Probabilidade Úteis** |
 |:-----------|:-----------------------------------------------------|
