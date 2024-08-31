@@ -55,7 +55,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Conceito final tem forte correlação com aprendizado, aprendizado tem forte correlação com esforço, esforço depende de tempo |
 | **Habilidades:** | Navegar pelo plano de estudo individual            |
 
-|  | **Combinatória e Probabilidade**                         |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/Material_de_Aula/02_Combinat%C3%B3ria_e_Probabilidade.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **Combinatória e Probabilidade**                    |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Qual a chance disso acontecer?                       |
 | **Definições:**| Contagem, Arranjo, Combinação, Espaço amostral, Evento, Eventos Independentes, Probabilidade Condicional |
