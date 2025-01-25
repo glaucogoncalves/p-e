@@ -1,4 +1,6 @@
-MSSubClass: Identifica o tipo de moradia envolvida na venda.	
+# Variáveis do conjunto de dados
+
+`MSSubClass` Identifica o tipo de moradia envolvida na venda.	
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -17,7 +19,7 @@ MSSubClass: Identifica o tipo de moradia envolvida na venda.
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-MSZoning: Identifica a classificação geral de zoneamento da venda.
+`MSZoning`: Identifica a classificação geral de zoneamento da venda.
 		
        A	Agricultura
        C	Comercial
@@ -28,43 +30,43 @@ MSZoning: Identifica a classificação geral de zoneamento da venda.
        RP	Residencial Baixa Densidade Parque
        RM	Residencial Média Densidade
 	
-LotFrontage: Metros lineares de rua conectados à propriedade.
+`LotFrontage`: Metros lineares de rua conectados à propriedade.
 
-LotArea: Tamanho do lote em pés quadrados
+`LotArea`: Tamanho do lote em pés quadrados
 
-Street: Tipo de acesso rodoviário à propriedade
+`Street`: Tipo de acesso rodoviário à propriedade
 
        Grvl	Cascalho	
        Pave	Pavimentada
        	
-Alley: Tipo de acesso por beco à propriedade
+`Alley`: Tipo de acesso à propriedade
 
        Grvl	Cascalho
        Pave	Pavimentada
        NA 	Sem acesso
 		
-LotShape: Forma geral da propriedade
+`LotShape`: Forma geral da propriedade
 
        Reg	Regular	
        IR1	Ligeiramente irregular
        IR2	Moderadamente irregular
        IR3	Irregular
        
-LandContour: Planicidade do imóvel
+`LandContour`: Planicidade do imóvel
 
        Lvl	Quase plano/nivelado	
        Bnk	Bancado - Aumento rápido e significativo do nível da rua para o edifício
        HLS	Encosta - Declive significativo de um lado para o outro
        Low	Depressão
 		
-Utilities: Tipo de utilidades disponíveis
+`Utilities`: Tipo de utilidades disponíveis
 		
        AllPub	Todos os serviços públicos (E,G,W,& S)	
        NoSewr	Eletricidade, Gás e Água (Fossa Séptica)
        NoSeWa	Somente eletricidade e gás
        ELO	Somente eletricidade	
 	
-LotConfig: Configuração do lote
+`LotConfig`: Configuração do lote
 
        Inside	Dentro do lote
        Corner	Lote de esquina
@@ -72,13 +74,13 @@ LotConfig: Configuração do lote
        FR2	Fachada em 2 lados da propriedade
        FR3	Fachada em 3 lados da propriedade
 	
-LandSlope: Declive da propriedade
+`LandSlope`: Declive da propriedade
 		
        Gtl	Declive suave
        Mod	Declive moderado	
        Sev	Declive severo
 	
-Neighborhood: Locais físicos dentro dos limites da cidade de Ames
+`Neighborhood`: Locais físicos dentro dos limites da cidade de Ames
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -106,9 +108,9 @@ Neighborhood: Locais físicos dentro dos limites da cidade de Ames
        Timber	Timberland
        Veenker	Veenker
 			
-Condition1: Proximidade de várias condições
+`Condition1`: Proximidade de várias condições
 	
-       Artery	Adjacente à rua arterial (via de trânsito principal)
+       Artery	Adjacente à uma via arterial (via de trânsito principal)
        Feedr	Adjacente à rua de alimentação (via secundária, geralmente conectada a ruas arteriais)	
        Norm	Normal	
        RRNn	A 200' da Ferrovia Norte-Sul
@@ -118,7 +120,7 @@ Condition1: Proximidade de várias condições
        RRNe	A 200' da Ferrovia Leste-Oeste
        RRAe	Adjacente à Ferrovia Leste-Oeste
 	
-Condition2: Proximidade de várias condições (se mais de uma estiver presente)
+`Condition2`: Proximidade de várias condições (se mais de uma estiver presente)
 		
        Artery	Adjacente à rua arterial (via de trânsito principal)
        Feedr	Adjacente à rua de alimentação (via secundária, geralmente conectada a ruas arteriais)	
@@ -130,7 +132,7 @@ Condition2: Proximidade de várias condições (se mais de uma estiver presente)
        RRNe	A 200' da Ferrovia Leste-Oeste
        RRAe	Adjacente à Ferrovia Leste-Oeste
 	
-BldgType: Tipo de moradia
+`BldgType`: Tipo de moradia
 		
        1Fam	Moradia unifamiliar isolada	
        2FmCon	Conversão para duas famílias; originalmente construída como moradia unifamiliar
@@ -138,7 +140,7 @@ BldgType: Tipo de moradia
        TwnhsE	Unidade final do sobrado
        TwnhsI	Moradia geminada dentro da unidade
 	
-HouseStyle: Estilo de moradia
+`HouseStyle`: Estilo de moradia
 	
        1Story	Um andar
        1.5Fin	Um andar e meio: 2º andar concluído
@@ -149,7 +151,7 @@ HouseStyle: Estilo de moradia
        SFoyer	Hall de entrada dividido
        SLvl	Split Level
 	
-OverallQual: Avalia o material geral e o acabamento da casa
+`OverallQual`: Avalia o material geral e o acabamento da casa
 
        10	Muito excelente
        9	Excelente
@@ -162,7 +164,7 @@ OverallQual: Avalia o material geral e o acabamento da casa
        2	Pobre
        1	Muito Pobre
 	
-OverallCond: Avalia o estado geral da casa
+`OverallCond`: Avalia o estado geral da casa
 
        10	Muito excelente
        9	Excelente
@@ -175,11 +177,11 @@ OverallCond: Avalia o estado geral da casa
        2	Pobre
        1	Muito Pobre
 		
-YearBuilt: Data de construção original
+`YearBuilt`: Data de construção original
 
-YearRemodAdd: Data da reforma (a mesma da construção, se não houver reforma ou acréscimos)
+`YearRemodAdd`: Data da reforma (a mesma da construção, se não houver reforma ou acréscimos)
 
-RoofStyle: Tipo de telhado
+`RoofStyle`: Tipo de telhado
 
        Flat	Plano
        Gable	Telhado de duas águas (dois planos inclinados que se encontram em um ponto central, formando uma estrutura triangular).
@@ -188,7 +190,7 @@ RoofStyle: Tipo de telhado
        Mansard	Telhado em estilo Mansarda, caracterizado por dois planos inclinados em cada lado, sendo o inferior mais inclinado que o superior (comum em construções de estilo francês).
        Shed	Telhado de uma única água, com apenas uma inclinação.
 		
-RoofMatl: Material do telhado
+`RoofMatl`: Material do telhado
 
        ClyTile	Argila ou Telha
        CompShg	Telha composta padrão
@@ -199,7 +201,7 @@ RoofMatl: Material do telhado
        WdShake	Telha de madeira
        WdShngl	Telhas de madeira (semelhantes a WdShake, mas geralmente mais finas e uniformes)
 		
-Exterior1st: Revestimento externo da casa
+`Exterior1st`: Revestimento externo da casa
 
        AsbShng	Telhas de amianto
        AsphShn	Telhas de asfalto
@@ -219,7 +221,7 @@ Exterior1st: Revestimento externo da casa
        Wd Sdng	Revestimento de madeira
        WdShing	Telhas de madeira
 	
-Exterior2nd: Revestimento externo da casa (se houver mais de um material)
+`Exterior2nd`: Revestimento externo da casa (se houver mais de um material)
 
        AsbShng	Telhas de amianto
        AsphShn	Telhas de asfalto
@@ -239,7 +241,7 @@ Exterior2nd: Revestimento externo da casa (se houver mais de um material)
        Wd Sdng	Revestimento de madeira
        WdShing	Telhas de madeira
 	
-MasVnrType: Tipo de revestimento de alvenaria
+`MasVnrType`: Tipo de revestimento de alvenaria
 
        BrkCmn	Tijolo comum
        BrkFace	Tijolo decorativo
@@ -247,9 +249,9 @@ MasVnrType: Tipo de revestimento de alvenaria
        None	Nenhum
        Stone	Pedra
 	
-MasVnrArea: Área de revestimento de alvenaria em pés quadrados
+`MasVnrArea`: Área de revestimento de alvenaria em pés quadrados
 
-ExterQual: Avalia a qualidade do material no exterior 
+`ExterQual`: Avalia a qualidade do material no exterior 
 		
        Ex	Excelente
        Gd	Bom
@@ -257,7 +259,7 @@ ExterQual: Avalia a qualidade do material no exterior
        Fa	Razoável
        Po	Pobre
 		
-ExterCond: Avalia a condição atual do material no exterior
+`ExterCond`: Avalia a condição atual do material no exterior
 		
        Ex	Excelente
        Gd	Bom
@@ -265,7 +267,7 @@ ExterCond: Avalia a condição atual do material no exterior
        Fa	Razoável
        Po	Pobre
 		
-Foundation: Tipo de fundação
+`Foundation`: Tipo de fundação
 		
        BrkTil	Tijolo e Azulejo
        CBlock	Bloco de concreto
@@ -274,7 +276,7 @@ Foundation: Tipo de fundação
        Stone	Pedra
        Wood	Madeira
 		
-BsmtQual: Avalia a altura do porão
+`BsmtQual`: Avalia a altura do porão
 
        Ex	Excelente (100+ polegadas / mais de 2,54 metros)	
        Gd	Bom (90-99 polegadas / cerca de 2,28 a 2,52 metros)
@@ -283,7 +285,7 @@ BsmtQual: Avalia a altura do porão
        Po	Pobre (<70 polegadas / menos de 1,78 metros)
        NA	Sem porão
 		
-BsmtCond: Avalia o estado geral do porão
+`BsmtCond`: Avalia o estado geral do porão
 
        Ex	Excelente
        Gd	Bom
@@ -292,7 +294,7 @@ BsmtCond: Avalia o estado geral do porão
        Po	Pobre - rachaduras severas, sedimentação ou umidade
        NA	Sem porão
 	
-BsmtExposure: Refere-se a muros de saída ou de nível de jardim
+`BsmtExposure`: Refere-se a muros de saída ou de nível de jardim
 
        Gd	Boa Exposição
        Av	Média de Exposição Média (níveis divididos ou foyers geralmente)
@@ -300,7 +302,7 @@ BsmtExposure: Refere-se a muros de saída ou de nível de jardim
        No	Sem Exposição
        NA	Sem porão
 	
-BsmtFinType1: Classificação da área final do porão
+`BsmtFinType1`: Classificação da área final do porão
 
        GLQ	Bom alojamento
        ALQ	Alojamento médio
@@ -310,9 +312,9 @@ BsmtFinType1: Classificação da área final do porão
        Unf	Inacabado
        NA	Sem porão
 		
-BsmtFinSF1: Tipo 1 pés quadrados acabados
+`BsmtFinSF1`: Tipo 1 pés quadrados acabados
 
-BsmtFinType2: Classificação da área final do porão (se houver vários tipos)
+`BsmtFinType2`: Classificação da área final do porão (se houver vários tipos)
 
        GLQ	Bom alojamento
        ALQ	Alojamento médio
@@ -322,13 +324,13 @@ BsmtFinType2: Classificação da área final do porão (se houver vários tipos)
        Unf	Inacabado
        NA	Sem porão
 
-BsmtFinSF2: Tipo 2 pés quadrados acabados
+`BsmtFinSF2`: Tipo 2 pés quadrados acabados
 
-BsmtUnfSF: Metros quadrados de área de porão inacabada
+`BsmtUnfSF`: Metros quadrados de área de porão inacabada
 
-TotalBsmtSF: Total de pés quadrados de área do porão
+`TotalBsmtSF`: Total de pés quadrados de área do porão
 
-Heating: Tipo de aquecimento
+`Heating`: Tipo de aquecimento
 		
        Floor	Aquecedor embutido no piso
        GasA	Aquecedor a gás com ar quente forçado
@@ -337,7 +339,7 @@ Heating: Tipo de aquecimento
        OthW	Aquecimento com água quente ou vapor, exceto gás
        Wall	Aquecedor de parede
 		
-HeatingQC: Qualidade e condição do aquecimento
+`HeatingQC`: Qualidade e condição do aquecimento
 
        Ex	Excelente
        Gd	Bom
@@ -345,12 +347,12 @@ HeatingQC: Qualidade e condição do aquecimento
        Fa	Razoável
        Po	Pobre
 		
-CentralAir: Ar condicionado central
+`CentralAir`: Ar condicionado central
 
        N	Não
        Y	Sim
 		
-Electrical: Sistema elétrico
+`Electrical`: Sistema elétrico
 
        SBrkr	Disjuntores padrão e fiação Romex
        FuseA	Caixa de fusíveis com mais de 60 AMP e toda a fiação Romex - Qualidade média	
@@ -358,7 +360,7 @@ Electrical: Sistema elétrico
        FuseP	Caixa de fusíveis de 60 AMP e principalmente fiação tipo "knob & tube" - Ruim
        Mix	Misto
 		
-1stFlrSF: Área do primeiro andar em pés quadrados
+`1stFlrSF`: Área do primeiro andar em pés quadrados
  
 2ndFlrSF: Área do segundo andar em pés quadrados
 
