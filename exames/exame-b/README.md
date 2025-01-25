@@ -73,13 +73,17 @@ Na última etapa, os alunos deverão construir um modelo de regressão linear m�
 
 Cada entrega será avaliada com base nos seguintes critérios:
 
-1. **Qualidade Técnica:** O código está correto e segue as técnicas aprendidas em aula?
-2. **Clareza:** O notebook está organizado, com explicações claras e gráficos bem apresentados?
-3. **Criatividade:** Há originalidade na abordagem, com insights ou soluções criativas?
+1. **Qualidade Técnica:** [4 pts] O código está correto e segue as técnicas aprendidas em aula?
+2. **Clareza:** [4 pts] O notebook está organizado, com explicações claras e gráficos bem apresentados?
+3. **Criatividade:** [2 pts] Há originalidade na abordagem, com insights ou soluções criativas?
+
+Para as Etapas de 1 a 3 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01, ET02 e ET03 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
 
 **Pontuação Adicional**
 
-Na etapa de modelagem, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
+Nas etapas 2, 3 e 4 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
+
+Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
 
 - **1º lugar:** 2 pontos extras no Exame B.
 - **2º e 3º lugares:** 1 ponto extra no Exame B.
