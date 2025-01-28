@@ -79,7 +79,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Média e Variância de uma VA Bernoulli, Média e Variância de uma distribuição {Geométrica, Binomial, Poisson, Beta, Gama, Exponencial, Normal}, Aproximação da Binomial pela Normal, Propriedades da distribuição normal, Teorema do Limite Central |
 | **Habilidades:** | Reconhecer a forma geral (gráfica e analítica) das funções de densidade de probabilidade das principais distribuições, Criar gráficos de quantis para investigar a aderência de dados à distribuição normal |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/06_An%C3%A1lise_Explorat%C3%B3ria_de_Dados_1D.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **Análise Exploratória de Dados - 1D**    |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/06_eda_1D.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | **Análise Exploratória de Dados - 1D**    |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | O que está acontecendo nesse monte dados?            |
 | **Definições:**| Média, Desvio Padrão, Variância, Mediana, Percentis, Quartis, Intervalo InterQuartil, Coordenadas Padrão, Dados Normais, Dados Normais Padronizados |
@@ -87,7 +87,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Propriedades da Média, Propriedades do Desvio Padrão, Propriedades da Variância, Propriedades da Mediana, Propriedades do Intervalo Interquartil, Propriedades dos dados normais |
 | **Habilidades:** | Fazer e interpretar um gráfico de barras, Fazer e interpretar um histograma, verificar assimetria pelo histograma, calcular medidas descritivas básicas (média, mediana, desvio padrão, intervalo interquartil), Fazer e interpretar um diagrama de caixa, Usar diagramas para investigar conjuntos de dados. |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/07_An%C3%A1lise_Explorat%C3%B3ria_de_Dados_2D.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Análise Exploratória de Dados - 2D**                   |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/07_eda_2D.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Análise Exploratória de Dados - 2D**                   |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | E qual a relação de uma coisa com outra?             |
 | **Definições:**| Coeficiente de correlação                             |
@@ -95,7 +95,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Propriedades do coeficiente de correlação. Correlação != causalidade. |
 | **Habilidades:** | Fazer e interpretar gráficos de barras, de calor e de setores, Fazer e interpretar gráficos de dispersão inclusive para determinar o sinal da correlação, Considerar aspectos sensíveis como cores, marcadores, linhas etc, Computar e interpretar o coeficiente de correlação. |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/08_Amostras_e_Popula%C3%A7%C3%B5es.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Amostras e Populações**                                |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/08_sampling.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Amostras e Populações**                                |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Qual a confiança que estes dados nos passam?         |
 | **Definições:**| Intervalo de confiança para média da população, Erro padrão, Distribuição t de student |
@@ -103,7 +103,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Propriedades das médias da população e da amostra, Expressões para média e variância da média amostral, Intervalos de confiança para grandes amostras |
 | **Habilidades:** | Calcular o erro padrão da média amostral, Fazer e interpretar gráficos com barras de erro, Calcular intervalo de confiança para a média da população usando uma amostra |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/09_Testando_suas_Hip%C3%B3teses.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Testando suas Hipóteses**                              |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/09_hypothesis_testing.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Testando suas Hipóteses**                              |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Qual a significância deste resultado?                |
 | **Definições:**| p-value, Significância estatística, Distribuição F, Distribuição χ², Teste de Hipótese, Teste t para médias, Teste F para igualdade das variâncias, Teste χ² para aderência de modelos |
@@ -111,21 +111,21 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Fatos:**     | Somas e diferenças de VAs normalmente distribuidas   |
 | **Habilidades:** | Calcular p-values para testes bicaudais e monocaudais, Avaliar se as médias são as mesmas, Interpretar o resultado de um teste de hipótese em geral, Utilizar testes de hipótese na prática |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/10_Experimentos.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Experimentos**                                         |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/10_experiments.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Experimentos**                                         |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Como devo planejar meus experimentos?                |
 | **Definições:**| Aleatorização, Balanceamento entre classes, Variação dos resíduos, Variação do tratamento, Análise de variância, Teste ANOVA, Fatores |
 | **Termos:**    | Tabela ANOVA, Experimento balanceado, Experimento não-balanceado, Soma dos quadrados dos desvios, ANOVA com um fator, ANOVA com dois fatores |
 | **Habilidades:** | Estruturar experimentos aleatórios com um fator, Estruturar experimentos aleatórios com dois fatores, Interpretar os resultados de uma Tabela ANOVA, Avaliar interações entre duas variáveis com ANOVA, Interpretar dados de experimentos desbalanceados |
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/11_Inferindo_Fun%C3%A7%C3%B5es_de_Probabilidade_a_partir_de_Dados.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Inferindo Funções de Probabilidade a partir de Dados** |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/11_distribution_fitting.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Inferindo Funções de Probabilidade a partir de Dados** |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Qual processo produziu estes dados?                  |
 | **Definições:**| Verossimilhança, Princípio da Máxima Verossimilhança, Logaritmo da Verossimilhança de um conjunto de dados sob um modelo |
 | **Termos:**    | Consistência do estimador, Teste Chi-quadrado para qualidade do ajuste, Teste Kolmogorov-Smirnov |
 | **Habilidades:** | Estimar parâmetros pela máxima verossimilhança (MLE), Definir funções de verossimilhança para diferentes distribuições de probabilidade, Estimar os parâmetros de diferentes modelos por MLE a partir de dados, Descrever situações
 
-| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/12_An%C3%A1lise_de_Regress%C3%A3o.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Regressão linear**                                     |
+| <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/12_regression.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Regressão linear**                                     |
 |:-----------|:-----------------------------------------------------|
 | **Pergunta:**  | Quanto aumentarão as vendas se aumentarmos as ações de marketing? |
 | **Definições:**| Regressão, Regressão Linear Simples, Regressão Linear Múltipla, Coeficiente de Determinação |
