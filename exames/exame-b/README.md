@@ -1,4 +1,4 @@
-# Exame B: Competição de Previsão de Preços de Casas
+# Exame B
 
 Este exame foi planejado para ser conduzido no formato de uma **competição**, oferecendo a oportunidade de aplicar conceitos aprendidos em sala de aula de maneira prática. O objetivo principal é analisar um conjunto de dados real de preços de casas na cidade de Ames, Iowa, e projetar um modelo para prever preços nesta região.
 
