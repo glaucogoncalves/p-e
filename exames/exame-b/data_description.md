@@ -370,11 +370,11 @@ GrLivArea: Área habitável acima do solo em pés quadrados
 
 BsmtFullBath: Banheiros completos no porão
 
-BsmtHalfBath: Meios banheiros no porão
+BsmtHalfBath: Lavabo no porão
 
 FullBath: Banheiros completos acima do nível do solo
 
-HalfBath: Meios banheiros acima do nível do solo
+HalfBath: Lavabo acima do nível do solo
 
 Bedroom: Quartos acima do nível do solo - não inclui quartos no porão
 
