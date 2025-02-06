@@ -92,7 +92,8 @@ Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de 
 
 ## Entrega e Submissão
 
-- Os notebooks devem ser criados no **Google Colab** e o link de compartilhamento deve ser enviado via SIGAA.
+- ~~Os notebooks devem ser criados no **Google Colab** e o link de compartilhamento deve ser enviado via SIGAA.~~
+- Os notebooks devem ser criados no Google Colab em Python e o arquivo deve ser enviado via SIGAA.
 - Entregas atrasadas não serão consideradas.
 
 ---
