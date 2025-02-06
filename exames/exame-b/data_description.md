@@ -378,7 +378,7 @@ HalfBath: Lavabo acima do nível do solo
 
 Bedroom: Quartos acima do nível do solo - não inclui quartos no porão
 
-Kitchen: Cozinhas acima do nível do solo
+`KitchenAbvGr`: Cozinha acima do nível do solo
 
 KitchenQual: Qualidade da Cozinha
 
