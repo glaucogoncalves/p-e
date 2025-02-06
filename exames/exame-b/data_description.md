@@ -30,7 +30,7 @@
        RP	Residencial Baixa Densidade Parque
        RM	Residencial Média Densidade
 	
-`LotFrontage`: Metros lineares de rua conectados à propriedade.
+`LotFrontage`: Pés lineares de rua conectados à propriedade.
 
 `LotArea`: Tamanho do lote em pés quadrados
 
@@ -326,7 +326,7 @@
 
 `BsmtFinSF2`: Tipo 2 pés quadrados acabados
 
-`BsmtUnfSF`: Metros quadrados de área de porão inacabada
+`BsmtUnfSF`: Pés quadrados de área de porão inacabada
 
 `TotalBsmtSF`: Total de pés quadrados de área do porão
 
