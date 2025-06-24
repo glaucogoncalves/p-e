@@ -8,16 +8,8 @@ Alunos trabalham em **duplas** e seguem quatro etapas sequenciais; cada entrega 
 ## Sumário
 
 * [Conjunto de dados](#conjunto-de-dados)
-    * [Submissão de resultados](#submissão-dos-resultados)
-
-* [Requisitos Técnicos e Critérios de Formatação](#requisitos-técnicos-e-critérios-de-formatação)
-    * [2.1 Estrutura do Notebook](#21-estrutura-do-notebook)
-    * [2.2 Comentários e Funções](#22-comentários-e-funções)
-    * [2.3 Relatórios de Saúde do Dataset](#23-relatórios-de-saúde-do-dataset)
-    * [2.4 Justificativas Textuais](#24-justificativas-textuais)
-    * [2.5 Reprodutibilidade](#25-reprodutibilidade)
-
 * [Etapas da Avaliação](#etapas-da-avaliação)
+* [Requisitos Técnicos e Critérios de Formatação](#requisitos-técnicos-e-critérios-de-formatação)
 * [Formato de Submissão](#formato-de-submissão)
 * [Avaliação](#avaliação)
 
@@ -37,13 +29,55 @@ A base completa foi dividida em três arquivos:
 
     - test_labels.csv: valores reais de violentPerPop para os exemplos do conjunto de teste. Será usado apenas pela equipe docente para avaliação interna dos modelos.
 
-### Submissão dos resultados
+## Etapas da Avaliação
 
-Na etapa de modelagem (Etapa 4), os alunos devem:
+### Etapa 1: Análise Unidimensional
 
-1. Utilizar train.csv para treinar e validar seus modelos.
+Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma isolada. O objetivo é compreender melhor o conjunto de dados e identificar possíveis problemas (como valores ausentes ou *outliers*).
 
-2. Fazer previsões sobre test_features.csv e salvar o resultado em um arquivo chamado submission.csv, contendo uma única coluna com os valores previstos, com o mesmo número de linhas e na mesma ordem do arquivo de entrada.
+- **Possíveis análises:**
+  - Calcular estatísticas descritivas para variáveis numéricas, como média, mediana, desvio padrão e assimetria.
+  - Criar tabelas de frequência para variáveis categóricas, identificando as categorias mais frequentes e aquelas menos representadas.
+  - Gerar gráficos como histogramas e *boxplots* para investigar distribuições e possíveis outliers.
+  - Relatar valores ausentes nas variáveis e sugerir estratégias para tratá-los.
+
+- **Entrega:**
+  - Um notebook contendo as análises, gráficos e explicações claras de cada etapa.
+
+### Etapa 2: Análise em duas ou mais dimensões
+
+Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
+
+- **Possíveis análises:**
+  - Gerar gráficos de dispersão para explorar as relações entre `violentPerPop` e variáveis contínuas.
+  - Criar boxplots ou violin plots para investigar como `violentPerPop` varia entre categorias.
+  - Calcular e interpretar uma matriz de correlação para as variáveis numéricas.
+  - Relatar os padrões encontrados, destacando variáveis potencialmente relevantes para a modelagem.
+
+- **Entrega:**
+  - Um notebook contendo os gráficos, análises e interpretações das relações observadas.
+
+### Etapa 3: Testes de Hipótese
+
+Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
+
+- **Possíveis análises:**
+  - O preço das casas aumenta com o aumento do tamanho das casas?
+  - O tipo do bairro onde a casa está localizada tem relação sobre os serviços públicos disponíveis?
+  - O estado da casa tem relação com o ano em que foi construída?
+
+- **Entrega:**
+  - Um notebook explicando as hipóteses levantadas, os testes realizados (com a devida checagem das suposições) e a interpretação conclusiva sobre cada hipótese.
+
+### Etapa 4: Modelagem Preditiva
+
+Na última etapa, os alunos deverão construir um modelo de regressão linear múltipla para prever os preços de venda das casas, ou seja, a variável dependente é `violentPerPop` e as demais podem ser usadas (todas ou apenas parte delas) como variáveis independentes.
+
+Os alunos devem:
+
+1. Utilizar ```train.csv``` para treinar e validar seus modelos.
+
+2. Fazer previsões sobre ```test_features.csv``` e salvar o resultado em um arquivo chamado ```submission.csv```, contendo uma única coluna com os valores previstos, com o mesmo número de linhas e na mesma ordem do arquivo de entrada.
 
 3. Incluir esse arquivo .csv na submissão final junto ao notebook.
 
@@ -51,8 +85,19 @@ Essa organização permite que o desempenho dos modelos seja avaliado de forma j
 
 O conjunto de dados fornecido (arquivo **`train.csv`**) contém informações demográficas detalhadas sobre as comunidades entre outras características suficientes paras as etapas da avaliação.
 
-## Requisitos Técnicos e Critérios de Formatação
+- **Tarefas:**
+  - Ajustar um modelo de **regressão linear** utilizando o conjunto de dados. Convém realizar testes mudando as variáveis independentes usadas no modelo e realizar possíveis transformações.
+  - Realizar a análise dos resíduos do modelo final.
 
+- **Entrega:**
+  - Um notebook contendo:
+    - O modelo final com explicações sobre as decisões tomadas
+    - Análise dos resíduos
+  - O arquivo ```submission.csv```
+
+---
+
+## Requisitos Técnicos e Critérios de Formatação
 
 ## 2.1 Estrutura do Notebook
 
@@ -140,59 +185,6 @@ print("Estatísticas básicas:\n", df.describe().T)
 ---
 
 * **README e comentários**: Um “executive summary” no início do notebook (Markdown) explicando objetivos, passos e métricas. Lembrando que cada seção do notebook inicia com um cabeçalho do tipo ## Etapa X – Nome da Etapa.
-
-## Etapas da Avaliação
-
-### Etapa 1: Análise Unidimensional
-
-Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma isolada. O objetivo é compreender melhor o conjunto de dados e identificar possíveis problemas (como valores ausentes ou *outliers*).
-
-- **Possíveis análises:**
-  - Calcular estatísticas descritivas para variáveis numéricas, como média, mediana, desvio padrão e assimetria.
-  - Criar tabelas de frequência para variáveis categóricas, identificando as categorias mais frequentes e aquelas menos representadas.
-  - Gerar gráficos como histogramas e *boxplots* para investigar distribuições e possíveis outliers.
-  - Relatar valores ausentes nas variáveis e sugerir estratégias para tratá-los.
-
-- **Entrega:**
-  - Um notebook contendo as análises, gráficos e explicações claras de cada etapa.
-
-### Etapa 2: Análise em duas ou mais dimensões
-
-Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
-
-- **Possíveis análises:**
-  - Gerar gráficos de dispersão para explorar as relações entre `violentPerPop` e variáveis contínuas.
-  - Criar boxplots ou violin plots para investigar como `violentPerPop` varia entre categorias.
-  - Calcular e interpretar uma matriz de correlação para as variáveis numéricas.
-  - Relatar os padrões encontrados, destacando variáveis potencialmente relevantes para a modelagem.
-
-- **Entrega:**
-  - Um notebook contendo os gráficos, análises e interpretações das relações observadas.
-
-### Etapa 3: Testes de Hipótese
-
-Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
-
-- **Possíveis análises:**
-  - O preço das casas aumenta com o aumento do tamanho das casas?
-  - O tipo do bairro onde a casa está localizada tem relação sobre os serviços públicos disponíveis?
-  - O estado da casa tem relação com o ano em que foi construída?
-
-- **Entrega:**
-  - Um notebook explicando as hipóteses levantadas, os testes realizados (com a devida checagem das suposições) e a interpretação conclusiva sobre cada hipótese.
-
-### Etapa 4: Modelagem Preditiva
-
-Na última etapa, os alunos deverão construir um modelo de regressão linear múltipla para prever os preços de venda das casas, ou seja, a variável dependente é `violentPerPop` e as demais podem ser usadas (todas ou apenas parte delas) como variáveis independentes.
-
-- **Tarefas:**
-  - Ajustar um modelo de **regressão linear** utilizando o conjunto de dados. Convém realizar testes mudando as variáveis independentes usadas no modelo e realizar possíveis transformações.
-  - Realizar a análise dos resíduos do modelo final.
-
-- **Entrega:**
-  - Um notebook contendo:
-    - O modelo final com explicações sobre as decisões tomadas
-    - Análise dos resíduos
 
 ---
 
