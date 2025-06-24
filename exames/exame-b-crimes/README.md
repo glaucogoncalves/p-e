@@ -3,17 +3,13 @@
 Este exame será conduzido no formato de uma **competição**, aplicando conceitos de probabilidade e estatística na prática. O objetivo principal é analisar um conjunto de dados real de características socioeconômicas e demográficas e prever a taxa de crimes violentos (`violentPerPop`) em comunidades dos EUA.
 Alunos trabalham em **duplas** e seguem quatro etapas sequenciais; cada entrega tem prazo divulgado no SIGAA.
 
----
-
 ## Sumário
 
 * [Conjunto de dados](#conjunto-de-dados)
 * [Etapas da Avaliação](#etapas-da-avaliação)
-* [Requisitos Técnicos e Critérios de Formatação](#requisitos-técnicos-e-critérios-de-formatação)
 * [Formato de Submissão](#formato-de-submissão)
 * [Avaliação](#avaliação)
-
----
+* [Sugestões de Formatação e Organização](#sugestões-de-formatação-e-organização)
 
 ## Conjunto de dados
 
@@ -35,39 +31,42 @@ A base completa foi dividida em três arquivos:
 
 Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma isolada. O objetivo é compreender melhor o conjunto de dados e identificar possíveis problemas (como valores ausentes ou *outliers*).
 
-- **Possíveis análises:**
-  - Calcular estatísticas descritivas para variáveis numéricas, como média, mediana, desvio padrão e assimetria.
-  - Criar tabelas de frequência para variáveis categóricas, identificando as categorias mais frequentes e aquelas menos representadas.
-  - Gerar gráficos como histogramas e *boxplots* para investigar distribuições e possíveis outliers.
-  - Relatar valores ausentes nas variáveis e sugerir estratégias para tratá-los.
+* **Possíveis análises:**
+  * Calcular estatísticas descritivas para variáveis numéricas, como média, mediana, desvio padrão e assimetria.
+  * Criar tabelas de frequência para variáveis categóricas, identificando as categorias mais frequentes e aquelas menos representadas.
+  * Gerar gráficos como histogramas e *boxplots* para investigar distribuições e possíveis outliers.
+  * Relatar valores ausentes nas variáveis e sugerir estratégias para tratá-los.
 
-- **Entrega:**
-  - Um notebook contendo as análises, gráficos e explicações claras de cada etapa.
+* **Entrega:**
+  * Um notebook contendo as análises, gráficos e explicações claras de cada etapa.
+  * O notebook deve estar em um zip como explicado em [Formato de Submissão](#formato-de-submissão)
 
 ### Etapa 2: Análise em duas ou mais dimensões
 
 Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
 
-- **Possíveis análises:**
-  - Gerar gráficos de dispersão para explorar as relações entre `violentPerPop` e variáveis contínuas.
-  - Criar boxplots ou violin plots para investigar como `violentPerPop` varia entre categorias.
-  - Calcular e interpretar uma matriz de correlação para as variáveis numéricas.
-  - Relatar os padrões encontrados, destacando variáveis potencialmente relevantes para a modelagem.
+* **Possíveis análises:**
+  * Gerar gráficos de dispersão para explorar as relações entre `violentPerPop` e variáveis contínuas.
+  * Criar boxplots ou violin plots para investigar como `violentPerPop` varia entre categorias.
+  * Calcular e interpretar uma matriz de correlação para as variáveis numéricas.
+  * Relatar os padrões encontrados, destacando variáveis potencialmente relevantes para a modelagem.
 
-- **Entrega:**
-  - Um notebook contendo os gráficos, análises e interpretações das relações observadas.
+* **Entrega:**
+  * Um notebook contendo os gráficos, análises e interpretações das relações observadas.
+  * O notebook deve estar em um zip como explicado em [Formato de Submissão](#formato-de-submissão)
 
 ### Etapa 3: Testes de Hipótese
 
 Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
 
-- **Possíveis análises:**
-  - O preço das casas aumenta com o aumento do tamanho das casas?
-  - O tipo do bairro onde a casa está localizada tem relação sobre os serviços públicos disponíveis?
-  - O estado da casa tem relação com o ano em que foi construída?
+* **Possíveis análises:**
+  * Uma comunidade onde o número de pessoas por domicílio é grande tem maior propensão a crimes violentos?
+  * Bairros de maior renda per capita tem mais policiamento?
+  * O estado da casa tem relação com o ano em que foi construída?
 
-- **Entrega:**
-  - Um notebook explicando as hipóteses levantadas, os testes realizados (com a devida checagem das suposições) e a interpretação conclusiva sobre cada hipótese.
+* **Entrega:**
+  * Um notebook explicando as hipóteses levantadas, os testes realizados (com a devida checagem das suposições) e a interpretação conclusiva sobre cada hipótese.
+  * O notebook deve estar em um zip como explicado em [Formato de Submissão](#formato-de-submissão)
 
 ### Etapa 4: Modelagem Preditiva
 
@@ -85,21 +84,59 @@ Essa organização permite que o desempenho dos modelos seja avaliado de forma j
 
 O conjunto de dados fornecido (arquivo **`train.csv`**) contém informações demográficas detalhadas sobre as comunidades entre outras características suficientes paras as etapas da avaliação.
 
-- **Tarefas:**
-  - Ajustar um modelo de **regressão linear** utilizando o conjunto de dados. Convém realizar testes mudando as variáveis independentes usadas no modelo e realizar possíveis transformações.
-  - Realizar a análise dos resíduos do modelo final.
+* **Tarefas:**
+  * Ajustar um modelo de **regressão linear** utilizando o conjunto de dados. Convém realizar testes mudando as variáveis independentes usadas no modelo e realizar possíveis transformações.
+  * Realizar a análise dos resíduos do modelo final.
 
-- **Entrega:**
-  - Um notebook contendo:
-    - O modelo final com explicações sobre as decisões tomadas
-    - Análise dos resíduos
-  - O arquivo ```submission.csv```
+* **Entrega:**
+  * Um notebook contendo:
+    * O modelo final com explicações sobre as decisões tomadas
+    * Análise dos resíduos
+  * O arquivo ```submission.csv```
+  * Os arquivos devem estar em um zip como explicado em [Formato de Submissão](#formato-de-submissão)
 
 ---
 
-## Requisitos Técnicos e Critérios de Formatação
+## Formato de Submissão
+
+Sua submissão será um arquivo ZIP contendo os arquivos abaixo listados. O notebook deve ser salvo com o nome no formato `ExameB_<ETX>_<Estudante1>_<Estudante2>.ipynb`. Em `<ETX>` você deve preencher o código da etapa que está enviando, enquanto que em `<Estudante1>` e `<Estudante2>`, você deve indicar os nomes completos dos estudantes que fazem a dupla. A regra é similar para o nome do arquivo zip.
+
+```text
+  ExameB_<ETX>_<Estudante1>_<Estudante2>.zip
+  ├── train.csv
+  ├── test_features.csv
+  ├── submission.csv (Somente na ET04)
+  └── ExameB_<ETX>_<Estudante1>_<Estudante2>.ipynb
+```
+
+O arquivo `submission.csv` deve ser enviado apenas na Etapa 4. Após organizado, o zip deverá ser enviado via SIGAA conforme as datas informadas.
+
+**Atenção**: você pode criar seu notebook usando o Google Colab se desejar, mas deve exportá-lo no formato requerido antes do envio. Não serão aceitos o envio por link de compartilhamento.
+
+## Avaliação
+
+Cada entrega será avaliada com base nos seguintes critérios:
+
+1. **Qualidade Técnica:** [4 pts] O código está correto e segue as técnicas aprendidas em aula?
+2. **Clareza:** [4 pts] O notebook está organizado, com explicações claras e gráficos bem apresentados?
+3. **Criatividade:** [2 pts] Há originalidade na abordagem, com insights ou soluções criativas?
+
+Para as Etapas de 1 a 3 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01, ET02 e ET03 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
+
+### Pontuação Adicional
+
+Nas etapas 2, 3 e 4 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
+
+Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
+
+* **1º lugar:** 2 pontos extras no Exame B.
+* **2º e 3º lugares:** 1 ponto extra no Exame B.
+
+## Sugestões de Formatação e Organização
 
 ## 2.1 Estrutura do Notebook
+
+* **Resumo e seções**: Adicione um breve resumo no início do seu notebook explicando objetivos e passos realizados. Além disso, cada seção do notebook inicia com um cabeçalho do tipo ## Seção X – Nome da Seção.
 
 * **Títulos em Markdown**:
 
@@ -108,7 +145,7 @@ O conjunto de dados fornecido (arquivo **`train.csv`**) contém informações de
   * `## Etapa 1 – Estatísticas Univariadas`
   * `### 1.1 Análise de Distribuições`
 
-* **Comentários de célula**: 
+* **Comentários de célula**:
 
     Cada célula de código deve começar com um comentário breve indicando seu propósito. O código deve seguir o padrão PEP8, com nomes claros, indentação correta e linhas com no máximo 100 caracteres para garantir legibilidade e padronização.
 
@@ -144,14 +181,15 @@ print("Estatísticas básicas:\n", df.describe().T)
 
 * Para cada tratamento de dados (outliers, imputação, codificação), inserir uma célula Markdown intitulada **Justificativa** com fundamentação teórica ou empírica.
 
-* Para testes estatísticos: 
+* Para testes estatísticos:
 
-    - Formular claramente as hipóteses nula (H₀) e alternativa (H₁).
-    - Definir o **nível de significância** (por exemplo, α = 0,05).
-    - Escolher e justificar o teste estatístico adequado (ex.: correlação de Pearson, Spearman, teste t, ANOVA).
-    - Apresentar os **valores das estatísticas** calculadas e o **p-value**.
-    - Concluir se rejeita ou não H₀, com base no p-valor.
-    - Incluir uma **tabela resumida** com os principais resultados.
+  * Formular claramente as hipóteses nula (H₀) e alternativa (H₁).
+  * Definir o **nível de significância** (por exemplo, α = 0,05).
+  * Escolher e justificar o teste estatístico adequado (ex.: correlação de Pearson, Spearman, teste t, ANOVA).
+  * Apresentar os **valores das estatísticas** calculadas e o **p-value**.
+  * Concluir se rejeita ou não H₀, com base no p-valor.
+  * Incluir uma **tabela resumida** com os principais resultados.
+
 ---
 
 **Exemplo**: Hipótese 1 – Relação entre `racepctblack` e `violentPerPop`
@@ -182,45 +220,7 @@ print("Estatísticas básicas:\n", df.describe().T)
   import pandas as pd, numpy as np, sklearn
   print(pd.__version__, np.__version__, sklearn.__version__)
   ```
----
 
-* **README e comentários**: Um “executive summary” no início do notebook (Markdown) explicando objetivos, passos e métricas. Lembrando que cada seção do notebook inicia com um cabeçalho do tipo ## Etapa X – Nome da Etapa.
-
----
-
-## Avaliação
-
-Cada entrega será avaliada com base nos seguintes critérios:
-
-1. **Qualidade Técnica:** [4 pts] O código está correto e segue as técnicas aprendidas em aula?
-2. **Clareza:** [4 pts] O notebook está organizado, com explicações claras e gráficos bem apresentados?
-3. **Criatividade:** [2 pts] Há originalidade na abordagem, com insights ou soluções criativas?
-
-Para as Etapas de 1 a 3 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01, ET02 e ET03 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
-
-**Pontuação Adicional**
-
-Nas etapas 2, 3 e 4 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
-
-Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
-
-- **1º lugar:** 2 pontos extras no Exame B.
-- **2º e 3º lugares:** 1 ponto extra no Exame B.
-
----
-
-## Formato de Submissão
-
-* **Notebook**: `ExameB_<RA1>_<RA2>.ipynb` (Google Colab compartilhável e arquivo exportado).
-* **Conteúdo do ZIP**:
-
-  ```
-  ExameB_<E1>_<E2>.zip
-  ├── train.csv
-  ├── test_features.csv
-  ├── submission.csv
-  └── ExameB_<RA1>_<RA2>.ipynb
-  ```
 ---
 
 *Boa sorte e mãos à obra!*

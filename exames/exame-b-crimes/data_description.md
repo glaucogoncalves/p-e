@@ -1,14 +1,16 @@
 # Dataset Description
 
 ## Overview
-- **Total de variáveis:** 147  
-- **Variáveis preditivas:** 125  
-- **Variáveis não-preditivas:** 4  
-- **Variáveis alvo potenciais:** 18  
+
+- **Total de variáveis:** 147
+- **Variável dependente:** 1
+- **Variáveis de identificação:** 4
+- **Variáveis preditoras:** 142
 
 ---
 
-## Variáveis 
+## Variáveis de identificação
+
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `communityname`      | Nome da comunidade (apenas informativo)                                            | String      |
@@ -16,8 +18,16 @@
 | `communityCode`      | Código numérico da comunidade (muitos valores faltantes)                           | Numérico    |
 | `fold`               | Número do *fold* para validação cruzada 10-fold (uso em testes pareados)           | Inteiro     |
 
----
+## Variável dependente
+
+| Nome da Variável     | Descrição                                                                          | Tipo        |
+|----------------------|------------------------------------------------------------------------------------|-------------|
+| `violentPerPop`    | Crimes violentos/100k habitantes              | Decimal     |
+
+## Variáveis preditoras
+
 ### Dados Demográficos Básicos
+
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `state`              | Sigla do estado (EUA)                                                              | Nominal     |
@@ -35,6 +45,7 @@
 | `pctUrban`           | % população em áreas urbanas                                                       | Decimal     |
 
 ### Renda e Economia
+
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `medIncome`          | Renda familiar mediana                                                             | Inteiro     |
@@ -56,6 +67,7 @@
 | `PctPopUnderPov`     | % população abaixo da linha da pobreza                                             | Decimal     |
 
 ### Educação e Emprego
+
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `PctLess9thGrade`    | % população (25+ anos) com menos de 9 anos de estudo                               | Decimal     |
@@ -69,6 +81,7 @@
 | `PctOccupMgmtProf`   | % população (16+ anos) em cargos gerenciais/profissionais                          | Decimal     |
 
 ### Estrutura Familiar
+
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
 | `MalePctDivorce`         | % homens divorciados                                                       | Decimal     |
@@ -86,6 +99,7 @@
 | `PctKidsBornNeverMar`    | % crianças nascidas de mães solteiras                                      | Decimal     |
 
 ### Imigração e Habitação
+
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
 | `NumImmig`               | Pessoas nascidas no exterior                                               | Inteiro     |
@@ -132,6 +146,7 @@
 | `NumStreet`              | Pessoas em situação de rua                                                 | Inteiro     |
 
 ### Mobilidade e Origem
+
 | Nome da Variável     | Descrição                                                                  | Tipo        |
 |----------------------|----------------------------------------------------------------------------|-------------|
 | `PctForeignBorn`     | % população nascida no exterior                                            | Decimal     |
@@ -141,6 +156,7 @@
 | `PctSameState85`     | % população no mesmo estado (vs. 1985)                                     | Decimal     |
 
 ### Policiamento
+
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
 | `LemasSwornFT`           | Policiais em tempo integral                                                | Inteiro     |
@@ -185,8 +201,4 @@
 | `autoTheftPerPop`        | Furtos de veículos/100k habitantes                                         | Decimal     |
 | `arsons`                 | Número de incêndios criminosos (1995)                                      | Inteiro     |
 | `arsonsPerPop`           | Incêndios criminosos/100k habitantes                                       | Decimal     |
-| `violentPerPop`    | **Atributo alvo principal:** Crimes violentos/100k habitantes              | Decimal     |
 | `nonViolPerPop`          | Crimes não-violentos/100k habitantes                                       | Decimal     |
-
----
-
