@@ -149,21 +149,22 @@ Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de 
 
     Cada célula de código deve começar com um comentário breve indicando seu propósito. O código deve seguir o padrão PEP8, com nomes claros, indentação correta e linhas com no máximo 100 caracteres para garantir legibilidade e padronização.
 
-  ```python
+```python
   # Objetivo: Descrição sucinta
-  ```
+```
 
 ### 2.2 Comentários e Funções
 
 * **Modularização**: ao longo do notebook, funções devem ser criadas para representar as etapas do pipeline (ex.: carregamento, tratamento, visualização, modelagem). Não há um número mínimo fixo, mas espera-se que as funções tornem o código reutilizável e organizado, com justificativa clara do seu papel na análise. Um exemplo:
 
-  ```python
-  def load_data(path):
-      """Carrega o CSV e retorna DataFrame."""
-      # ...
-      return df
-  ```
-* **Docstrings**: cada função deve incluir uma breve descrição, listando parâmetros e valores retornados. 
+```python
+def load_data(path):
+    """Carrega o CSV e retorna DataFrame."""
+    # ...
+    return df
+```
+
+* **Docstrings**: cada função deve incluir uma breve descrição, listando parâmetros e valores retornados.
 
 A construção de funções ao longo do notebook é fundamental para a clareza e reutilização do código. Em vez de repetir comandos, os alunos devem encapsular etapas em funções nomeadas e bem documentadas, explicando seu uso dentro do fluxo da análise.
 
@@ -172,9 +173,9 @@ A construção de funções ao longo do notebook é fundamental para a clareza e
 Ao final de cada processamento signifativo, imprimir informações do dataset antes e depois. Um exemplo:
 
 ```python
-print("Shape:", df.shape)
-print("Missing por coluna:\n", df.isna().sum())
-print("Estatísticas básicas:\n", df.describe().T)
+  print("Shape:", df.shape)
+  print("Missing por coluna:\n", df.isna().sum())
+  print("Estatísticas básicas:\n", df.describe().T)
 ```
 
 ### 2.3 Justificativas Textuais
@@ -196,8 +197,8 @@ print("Estatísticas básicas:\n", df.describe().T)
 
 **Hipóteses formuladas:**
 
-- H₀: Não há correlação significativa entre `racepctblack` e `violentPerPop`.
-- H₁: Existe correlação significativa entre `racepctblack` e `violentPerPop`.
+* H₀: Não há correlação significativa entre `racepctblack` e `violentPerPop`.
+* H₁: Existe correlação significativa entre `racepctblack` e `violentPerPop`.
 
 **Teste aplicado:** Correlação de Pearson  
 **Nível de significância:** α = 0,05
@@ -206,20 +207,20 @@ print("Estatísticas básicas:\n", df.describe().T)
 
 | Estatística | Valor |
 |-------------|-------|
-| Correlação (r) | _preencher_ |
-| p-value        | _preencher_ |
+| Correlação (r) | *preencher* |
+| p-value        | *preencher* |
 
-**Conclusão:** _Escreva aqui se rejeita ou não H₀, e o que isso implica._
+**Conclusão:** Escreva aqui se rejeita ou não H₀, e o que isso implica.
 
 ### 2.4 Reprodutibilidade
 
 * **Random seed fixo** em todas operações aleatórias (`random_state=2025`).
 * **Versões de pacotes**: no bloco inicial, exibir:
 
-  ```python
+```python
   import pandas as pd, numpy as np, sklearn
   print(pd.__version__, np.__version__, sklearn.__version__)
-  ```
+```
 
 ---
 
