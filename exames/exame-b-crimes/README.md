@@ -43,7 +43,7 @@ Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma
 
 ### Etapa 2: Análise em duas ou mais dimensões
 
-Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
+Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `violentPerPop` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
 
 * **Possíveis análises:**
   * Gerar gráficos de dispersão para explorar as relações entre `violentPerPop` e variáveis contínuas.
