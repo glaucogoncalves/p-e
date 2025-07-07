@@ -31,17 +31,17 @@
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `state`              | Sigla do estado (EUA)                                                              | Nominal     |
-| `population`         | População total                                                                    | Inteiro     |
-| `householdsize`      | Média de pessoas por domicílio                                                    | Decimal     |
-| `racepctblack`       | % população afro-americana                                                         | Decimal     |
-| `racePctWhite`       | % população branca                                                                 | Decimal     |
-| `racePctAsian`       | % população de origem asiática                                                     | Decimal     |
-| `racePctHisp`        | % população de origem hispânica                                                    | Decimal     |
-| `agePct12t21`        | % população entre 12-21 anos                                                       | Decimal     |
-| `agePct12t29`        | % população entre 12-29 anos                                                       | Decimal     |
-| `agePct16t24`        | % população entre 16-24 anos                                                       | Decimal     |
-| `agePct65up`         | % população com 65+ anos                                                           | Decimal     |
-| `numbUrban`          | População em áreas urbanas                                                         | Inteiro     |
+| `pop`         | População total                                                                    | Inteiro     |
+| `perHoush`      | Média de pessoas por domicílio                                                    | Decimal     |
+| `pctblack`       | % população afro-americana                                                         | Decimal     |
+| `pctWhite`       | % população branca                                                                 | Decimal     |
+| `pctAsian`       | % população de origem asiática                                                     | Decimal     |
+| `pctHisp`        | % população de origem hispânica                                                    | Decimal     |
+| `pct12-21`        | % população entre 12-21 anos                                                       | Decimal     |
+| `pct12-29`        | % população entre 12-29 anos                                                       | Decimal     |
+| pct16-24`        | % população entre 16-24 anos                                                       | Decimal     |
+| `pct65up`         | % população com 65+ anos                                                           | Decimal     |
+| `persUrban`          | População em áreas urbanas                                                         | Inteiro     |
 | `pctUrban`           | % população em áreas urbanas                                                       | Decimal     |
 
 ### Renda e Economia
@@ -49,142 +49,142 @@
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
 | `medIncome`          | Renda familiar mediana                                                             | Inteiro     |
-| `pctWWage`           | % domicílios com renda de salário (1989)                                           | Decimal     |
-| `pctWFarmSelf`       | % domicílios com renda agropecuária/autônoma (1989)                                | Decimal     |
-| `pctWInvInc`         | % domicílios com renda de investimentos (1989)                                     | Decimal     |
-| `pctWSocSec`         | % domicílios com previdência social (1989)                                         | Decimal     |
+| `pctWwage`           | % domicílios com renda de salário (1989)                                           | Decimal     |
+| `pctWfarm`       | % domicílios com renda agropecuária/autônoma (1989)                                | Decimal     |
+| `pctWdiv`         | % domicílios com renda de investimentos (1989)                                     | Decimal     |
+| `pctWsocsec`         | % domicílios com previdência social (1989)                                         | Decimal     |
 | `pctWPubAsst`        | % domicílios com assistência pública (1989)                                        | Decimal     |
 | `pctWRetire`         | % domicílios com renda de aposentadoria (1989)                                     | Decimal     |
-| `medFamInc`          | Renda familiar mediana (apenas famílias)                                           | Inteiro     |
+| `medFamIncome`          | Renda familiar mediana (apenas famílias)                                           | Inteiro     |
 | `perCapInc`          | Renda *per capita*                                                                 | Decimal     |
 | `whitePerCap`        | Renda *per capita* (brancos)                                                       | Decimal     |
 | `blackPerCap`        | Renda *per capita* (afro-americanos)                                               | Decimal     |
-| `indianPerCap`       | Renda *per capita* (nativos americanos)                                            | Decimal     |
+| `NAPerCap`       | Renda *per capita* (nativos americanos)                                            | Decimal     |
 | `AsianPerCap`        | Renda *per capita* (asiáticos)                                                     | Decimal     |
-| `OtherPerCap`        | Renda *per capita* (outras etnias)                                                 | Decimal     |
-| `HispPerCap`         | Renda *per capita* (hispânicos)                                                    | Decimal     |
-| `NumUnderPov`        | Pessoas abaixo da linha da pobreza                                                 | Inteiro     |
-| `PctPopUnderPov`     | % população abaixo da linha da pobreza                                             | Decimal     |
+| `otherPerCap`        | Renda *per capita* (outras etnias)                                                 | Decimal     |
+| `hispPerCap`         | Renda *per capita* (hispânicos)                                                    | Decimal     |
+| `persPoverty`        | Pessoas abaixo da linha da pobreza                                                 | Inteiro     |
+| `pctPoverty`     | % população abaixo da linha da pobreza                                             | Decimal     |
 
 ### Educação e Emprego
 
 | Nome da Variável     | Descrição                                                                          | Tipo        |
 |----------------------|------------------------------------------------------------------------------------|-------------|
-| `PctLess9thGrade`    | % população (25+ anos) com menos de 9 anos de estudo                               | Decimal     |
-| `PctNotHSGrad`       | % população (25+ anos) sem ensino médio completo                                   | Decimal     |
-| `PctBSorMore`        | % população (25+ anos) com ensino superior completo                                | Decimal     |
-| `PctUnemployed`      | % população (16+ anos) desempregada                                                | Decimal     |
-| `PctEmploy`          | % população (16+ anos) empregada                                                   | Decimal     |
-| `PctEmplManu`        | % empregados na indústria                                                          | Decimal     |
-| `PctEmplProfServ`    | % empregados em serviços profissionais                                             | Decimal     |
-| `PctOccupManu`       | % população (16+ anos) em ocupações industriais                                    | Decimal     |
-| `PctOccupMgmtProf`   | % população (16+ anos) em cargos gerenciais/profissionais                          | Decimal     |
+| `pctLowEdu`    | % população (25+ anos) com menos de 9 anos de estudo                               | Decimal     |
+| `pctNotHSgrad`       | % população (25+ anos) sem ensino médio completo                                   | Decimal     |
+| `pctCollGrad`        | % população (25+ anos) com ensino superior completo                                | Decimal     |
+| `pctUnemploy`      | % população (16+ anos) desempregada                                                | Decimal     |
+| `pctEmploy`          | % população (16+ anos) empregada                                                   | Decimal     |
+| `pctEmployMfg`        | % empregados na indústria                                                          | Decimal     |
+| `pctEmployProfServ`    | % empregados em serviços profissionais                                             | Decimal     |
+| `pctOccupManu`       | % população (16+ anos) em ocupações industriais                                    | Decimal     |
+| `pctOccupMgmt`   | % população (16+ anos) em cargos gerenciais/profissionais                          | Decimal     |
 
 ### Estrutura Familiar
 
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
-| `MalePctDivorce`         | % homens divorciados                                                       | Decimal     |
-| `MalePctNevMarr`         | % homens nunca casados                                                     | Decimal     |
-| `FemalePctDiv`           | % mulheres divorciadas                                                     | Decimal     |
-| `TotalPctDiv`            | % população divorciada                                                     | Decimal     |
-| `PersPerFam`             | Média de pessoas por família                                               | Decimal     |
-| `PctFam2Par`             | % famílias com dois pais (com filhos)                                      | Decimal     |
-| `PctKids2Par`            | % crianças em famílias com dois pais                                       | Decimal     |
-| `PctYoungKids2Par`       | % crianças (≤4 anos) em famílias com dois pais                             | Decimal     |
-| `PctTeen2Par`            | % adolescentes (12-17 anos) em famílias com dois pais                      | Decimal     |
-| `PctWorkMomYoungKids`    | % mães (com filhos ≤6 anos) no mercado de trabalho                         | Decimal     |
-| `PctWorkMom`             | % mães (com filhos <18 anos) no mercado de trabalho                        | Decimal     |
-| `NumKidsBornNeverMar`    | Crianças nascidas de mães solteiras                                        | Inteiro     |
-| `PctKidsBornNeverMar`    | % crianças nascidas de mães solteiras                                      | Decimal     |
+| `pctMaleDivorc`         | % homens divorciados                                                       | Decimal     |
+| `pctMaleNevMar`         | % homens nunca casados                                                     | Decimal     |
+| `pctFemDivorc`           | % mulheres divorciadas                                                     | Decimal     |
+| `pctAllDivorc`            | % população divorciada                                                     | Decimal     |
+| `persPerFam`             | Média de pessoas por família                                               | Decimal     |
+| `pct2Par`             | % famílias com dois pais (com filhos)                                      | Decimal     |
+| `pctKids2Par`            | % crianças em famílias com dois pais                                       | Decimal     |
+| `pctKids-4w2Par`       | % crianças (≤4 anos) em famílias com dois pais                             | Decimal     |
+| `pct12-17w2Par`            | % adolescentes (12-17 anos) em famílias com dois pais                      | Decimal     |
+| `pctWorkMom-6`    | % mães (com filhos ≤6 anos) no mercado de trabalho                         | Decimal     |
+| `pctWorkMom-18`             | % mães (com filhos <18 anos) no mercado de trabalho                        | Decimal     |
+| `kidsBornNevrMarr`    | Crianças nascidas de mães solteiras                                        | Inteiro     |
+| `pctKidsBornNevrMarr`    | % crianças nascidas de mães solteiras                                      | Decimal     |
 
 ### Imigração e Habitação
 
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
-| `NumImmig`               | Pessoas nascidas no exterior                                               | Inteiro     |
-| `PctImmigRecent`         | % imigrantes chegados nos últimos 3 anos                                   | Decimal     |
-| `PctImmigRec5`           | % imigrantes chegados nos últimos 5 anos                                   | Decimal     |
-| `PctImmigRec8`           | % imigrantes chegados nos últimos 8 anos                                   | Decimal     |
-| `PctImmigRec10`          | % imigrantes chegados nos últimos 10 anos                                  | Decimal     |
-| `PctRecentImmig`         | % população imigrante recente (≤3 anos)                                    | Decimal     |
-| `PctRecImmig5`           | % população imigrante (≤5 anos)                                            | Decimal     |
-| `PctRecImmig8`           | % população imigrante (≤8 anos)                                            | Decimal     |
-| `PctRecImmig10`          | % população imigrante (≤10 anos)                                           | Decimal     |
-| `PctSpeakEnglOnly`       | % população que fala apenas inglês                                         | Decimal     |
-| `PctNotSpeakEnglWell`    | % população com dificuldade em inglês                                      | Decimal     |
-| `PctLargHouseFam`        | % famílias em domicílios grandes (6+ pessoas)                             | Decimal     |
-| `PctLargHouseOccup`      | % domicílios ocupados grandes (6+ pessoas)                                | Decimal     |
-| `PersPerOccupHous`       | Média de pessoas por domicílio ocupado                                     | Decimal     |
-| `PersPerOwnOccHous`      | Média de pessoas em domicílios próprios                                    | Decimal     |
-| `PersPerRentOccHous`     | Média de pessoas em domicílios alugados                                    | Decimal     |
-| `PctPersOwnOccup`        | % população em domicílios próprios                                         | Decimal     |
-| `PctPersDenseHous`       | % população em moradias superlotadas (>1 pessoa/cômodo)                    | Decimal     |
-| `PctHousLess3BR`         | % domicílios com < 3 quartos                                                | Decimal     |
-| `MedNumBR`               | Número mediano de quartos                                                  | Decimal     |
-| `HousVacant`             | Domicílios vagos                                                           | Inteiro     |
-| `PctHousOccup`           | % domicílios ocupados                                                      | Decimal     |
-| `PctHousOwnOcc`          | % domicílios próprios ocupados                                             | Decimal     |
-| `PctVacantBoarded`       | % domicílios vagos com entradas vedadas                                    | Decimal     |
-| `PctVacMore6Mos`         | % domicílios vagos >6 meses                                                | Decimal     |
-| `MedYrHousBuilt`         | Ano mediano de construção dos imóveis                                      | Inteiro     |
-| `PctHousNoPhone`         | % domicílios sem telefone (1990)                                           | Decimal     |
-| `PctWOFullPlumb`         | % domicílios sem instalações sanitárias completas                          | Decimal     |
-| `OwnOccLowQuart`         | 1º quartil do valor de imóveis próprios                                    | Decimal     |
-| `OwnOccMedVal`           | Valor mediano de imóveis próprios                                          | Decimal     |
-| `OwnOccHiQuart`          | 3º quartil do valor de imóveis próprios                                    | Decimal     |
-| `OwnOccQrange`           | Diferença interquartil de valores de imóveis próprios                       | Decimal     |
-| `RentLowQ`               | 1º quartil do aluguel                                                      | Decimal     |
-| `RentMedian`             | Mediana do aluguel                                                         | Decimal     |
-| `RentHighQ`              | 3º quartil do aluguel                                                      | Decimal     |
-| `RentQrange`             | Diferença interquartil de aluguéis                                         | Decimal     |
-| `MedRent`                | Aluguel mediano bruto (inclui utilities)                                   | Decimal     |
-| `MedRentPctHousInc`      | Aluguel bruto como % da renda familiar                                     | Decimal     |
-| `MedOwnCostPctInc`       | Custo do imóvel próprio como % da renda (com hipoteca)                     | Decimal     |
-| `MedOwnCostPctIncNoMtg`  | Custo do imóvel próprio como % da renda (sem hipoteca)                     | Decimal     |
-| `NumInShelters`          | Pessoas em abrigos para sem-teto                                           | Inteiro     |
-| `NumStreet`              | Pessoas em situação de rua                                                 | Inteiro     |
+| `numForeignBorn`               | Pessoas nascidas no exterior                                               | Inteiro     |
+| `pctFgnImmig-3`         | % imigrantes chegados nos últimos 3 anos                                   | Decimal     |
+| `pctFgnImmig-5`           | % imigrantes chegados nos últimos 5 anos                                   | Decimal     |
+| `pctFgnImmig-8`           | % imigrantes chegados nos últimos 8 anos                                   | Decimal     |
+| `pctFgnImmig-10`          | % imigrantes chegados nos últimos 10 anos                                  | Decimal     |
+| `pctImmig-3`         | % população imigrante recente (≤3 anos)                                    | Decimal     |
+| `pctImmig-5`           | % população imigrante (≤5 anos)                                            | Decimal     |
+| `pctImmig-8`           | % população imigrante (≤8 anos)                                            | Decimal     |
+| `pctImmig-10`          | % população imigrante (≤10 anos)                                           | Decimal     |
+| `pctSpeakOnlyEng`       | % população que fala apenas inglês                                         | Decimal     |
+| `pctNotSpeakEng`    | % população com dificuldade em inglês                                      | Decimal     |
+| `pctLargHousFam`        | % famílias em domicílios grandes (6+ pessoas)                             | Decimal     |
+| `pctLargHous`      | % domicílios ocupados grandes (6+ pessoas)                                | Decimal     |
+| `persPerOccupHous`       | Média de pessoas por domicílio ocupado                                     | Decimal     |
+| `persPerOwnOccup`      | Média de pessoas em domicílios próprios                                    | Decimal     |
+| `persPerRenterOccup`     | Média de pessoas em domicílios alugados                                    | Decimal     |
+| `pctPersOwnOccup`        | % população em domicílios próprios                                         | Decimal     |
+| `pctPopDenseHous`       | % população em moradias superlotadas (>1 pessoa/cômodo)                    | Decimal     |
+| `pctSmallHousUnits`         | % domicílios com < 3 quartos                                                | Decimal     |
+| `medNumBedrm`               | Número mediano de quartos                                                  | Decimal     |
+| `houseVacant`             | Domicílios vagos                                                           | Inteiro     |
+| `pctHousOccup`           | % domicílios ocupados                                                      | Decimal     |
+| `pctHousOwnerOccup`          | % domicílios próprios ocupados                                             | Decimal     |
+| `pctVacantBoarded`       | % domicílios vagos com entradas vedadas                                    | Decimal     |
+| `pctVacant6up`         | % domicílios vagos >6 meses                                                | Decimal     |
+| `medYrHousBuilt`         | Ano mediano de construção dos imóveis                                      | Inteiro     |
+| `pctHousWOphone`         | % domicílios sem telefone (1990)                                           | Decimal     |
+| `pctHousWOplumb`         | % domicílios sem instalações sanitárias completas                          | Decimal     |
+| `ownHousLowQ`         | 1º quartil do valor de imóveis próprios                                    | Decimal     |
+| `ownHousMed`           | Valor mediano de imóveis próprios                                          | Decimal     |
+| `ownHousUperQ`          | 3º quartil do valor de imóveis próprios                                    | Decimal     |
+| `ownHousQrange`           | Diferença interquartil de valores de imóveis próprios                       | Decimal     |
+| `rentLowQ`               | 1º quartil do aluguel                                                      | Decimal     |
+| `rentMed`             | Mediana do aluguel                                                         | Decimal     |
+| `rentUpperQ`              | 3º quartil do aluguel                                                      | Decimal     |
+| `rentQrange`             | Diferença interquartil de aluguéis                                         | Decimal     |
+| `medGrossRent`                | Aluguel mediano bruto (inclui utilities)                                   | Decimal     |
+| `medRentpctHousInc`      | Aluguel bruto como % da renda familiar                                     | Decimal     |
+| `medOwnCostpct`       | Custo do imóvel próprio como % da renda (com hipoteca)                     | Decimal     |
+| `medOwnCostPctWO`  | Custo do imóvel próprio como % da renda (sem hipoteca)                     | Decimal     |
+| `persEmergShelt`          | Pessoas em abrigos para sem-teto                                           | Inteiro     |
+| `persHomeless`              | Pessoas em situação de rua                                                 | Inteiro     |
 
 ### Mobilidade e Origem
 
 | Nome da Variável     | Descrição                                                                  | Tipo        |
 |----------------------|----------------------------------------------------------------------------|-------------|
-| `PctForeignBorn`     | % população nascida no exterior                                            | Decimal     |
-| `PctBornSameState`   | % população nascida no estado atual                                        | Decimal     |
-| `PctSameHouse85`     | % população na mesma residência (vs. 1985)                                 | Decimal     |
-| `PctSameCity85`      | % população na mesma cidade (vs. 1985)                                     | Decimal     |
-| `PctSameState85`     | % população no mesmo estado (vs. 1985)                                     | Decimal     |
+| `pctForeignBorn`     | % população nascida no exterior                                            | Decimal     |
+| `pctBornStateResid`   | % população nascida no estado atual                                        | Decimal     |
+| `pctSameHouse-5`     | % população na mesma residência (vs. 1985)                                 | Decimal     |
+| `pctSameCounty-5`      | % população na mesma cidade (vs. 1985)                                     | Decimal     |
+| `pctSameState-5`     | % população no mesmo estado (vs. 1985)                                     | Decimal     |
 
 ### Policiamento
 
 | Nome da Variável         | Descrição                                                                  | Tipo        |
 |--------------------------|----------------------------------------------------------------------------|-------------|
-| `LemasSwornFT`           | Policiais em tempo integral                                                | Inteiro     |
-| `LemasSwFTPerPop`        | Policiais/100k habitantes                                                  | Decimal     |
-| `LemasSwFTFieldOps`      | Policiais em operações de campo                                            | Inteiro     |
-| `LemasSwFTFieldPerPop`   | Policiais em campo/100k habitantes                                         | Decimal     |
-| `LemasTotalReq`          | Total de solicitações policiais                                            | Inteiro     |
-| `LemasTotReqPerPop`      | Solicitações policiais/100k habitantes                                     | Decimal     |
-| `PolicReqPerOffic`       | Solicitações por policial                                                  | Decimal     |
-| `PolicPerPop`            | Policiais/100k habitantes                                                  | Decimal     |
-| `RacialMatchCommPol`     | Similaridade racial entre comunidade e polícia                             | Decimal     |
-| `PctPolicWhite`          | % policiais brancos                                                        | Decimal     |
-| `PctPolicBlack`          | % policiais afro-americanos                                                | Decimal     |
-| `PctPolicHisp`           | % policiais hispânicos                                                     | Decimal     |
-| `PctPolicAsian`          | % policiais asiáticos                                                      | Decimal     |
-| `PctPolicMinor`          | % policiais de minorias                                                    | Decimal     |
-| `OfficAssgnDrugUnits`    | Policiais em unidades anti-drogas                                          | Inteiro     |
-| `NumKindsDrugsSeiz`      | Tipos de drogas apreendidas                                                | Inteiro     |
-| `PolicAveOTWorked`       | Média de horas extras policiais                                            | Decimal     |
-| `LandArea`               | Área territorial (mi²)                                                     | Decimal     |
-| `PopDens`                | Densidade populacional (pessoas/mi²)                                       | Decimal     |
-| `PctUsePubTrans`         | % população que usa transporte público                                     | Decimal     |
-| `PolicCars`              | Viaturas policiais                                                         | Inteiro     |
-| `PolicOperBudg`          | Orçamento operacional da polícia                                           | Inteiro     |
-| `LemasPctPolicOnPatr`    | % policiais em patrulha                                                    | Decimal     |
-| `LemasGangUnitDeploy`    | Unidade anti-gangues implantada (0=Não, 10=Sim, 5=Parcial)                 | Inteiro     |
-| `LemasPctOfficDrugUn`    | % policiais em unidades anti-drogas                                        | Decimal     |
-| `PolicBudgPerPop`        | Orçamento policial per capita                                              | Decimal     |
+| `numPolice`           | Policiais em tempo integral                                                | Inteiro     |
+| `policePerPop`        | Policiais/100k habitantes                                                  | Decimal     |
+| `policeField`      | Policiais em operações de campo                                            | Inteiro     |
+| `policeFieldPerPop`   | Policiais em campo/100k habitantes                                         | Decimal     |
+| `policeCalls`          | Total de solicitações policiais                                            | Inteiro     |
+| `policCallPerPop`      | Solicitações policiais/100k habitantes                                     | Decimal     |
+| `policCallPerOffic`       | Solicitações por policial                                                  | Decimal     |
+| `policePerPop2`            | Policiais/100k habitantes                                                  | Decimal     |
+| `racialMatch`     | Similaridade racial entre comunidade e polícia                             | Decimal     |
+| `pctPolicWhite`          | % policiais brancos                                                        | Decimal     |
+| `pctPolicBlack`          | % policiais afro-americanos                                                | Decimal     |
+| `pctPolicHisp`           | % policiais hispânicos                                                     | Decimal     |
+| `pctPolicAsian`          | % policiais asiáticos                                                      | Decimal     |
+| `pctPolicMinority`          | % policiais de minorias                                                    | Decimal     |
+| `officDrugUnits`    | Policiais em unidades anti-drogas                                          | Inteiro     |
+| `numDiffDrugsSeiz`      | Tipos de drogas apreendidas                                                | Inteiro     |
+| `policAveOT`       | Média de horas extras policiais                                            | Decimal     |
+| `landArea`               | Área territorial (mi²)                                                     | Decimal     |
+| `popDensity`                | Densidade populacional (pessoas/mi²)                                       | Decimal     |
+| `pctUsePubTrans`         | % população que usa transporte público                                     | Decimal     |
+| `policCarsAvail`              | Viaturas policiais                                                         | Inteiro     |
+| `policOperBudget`          | Orçamento operacional da polícia                                           | Inteiro     |
+| `pctPolicPatrol`    | % policiais em patrulha                                                    | Decimal     |
+| `gangUnit`    | Unidade anti-gangues implantada (0=Não, 10=Sim, 5=Parcial)                 | Inteiro     |
+| `pctOfficDrugUnit`    | % policiais em unidades anti-drogas                                        | Decimal     |
+| `policBudgetPerPop`        | Orçamento policial per capita                                              | Decimal     |
 | `murders`                | Número de homicídios (1995)                                                | Inteiro     |
 | `murdPerPop`             | Homicídios/100k habitantes                                                 | Decimal     |
 | `rapes`                  | Número de estupros (1995)                                                  | Inteiro     |
@@ -202,3 +202,4 @@
 | `arsons`                 | Número de incêndios criminosos (1995)                                      | Inteiro     |
 | `arsonsPerPop`           | Incêndios criminosos/100k habitantes                                       | Decimal     |
 | `nonViolPerPop`          | Crimes não-violentos/100k habitantes                                       | Decimal     |
+| `violentPerPop`|Crimes violentos/100k habitantes | decimal
