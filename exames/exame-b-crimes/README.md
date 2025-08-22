@@ -70,7 +70,7 @@ Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão
 
 ### Etapa 4: Modelagem Preditiva
 
-Na última etapa, os alunos deverão construir um modelo de regressão linear múltipla para prever os preços de venda das casas, ou seja, a variável dependente é `violentPerPop` e as demais podem ser usadas (todas ou apenas parte delas) como variáveis independentes.
+Na última etapa, os alunos deverão construir um modelo de regressão linear múltipla para prever a taxa de crimes violentos, ou seja, a variável dependente é `violentPerPop` e as demais podem ser usadas (todas ou apenas parte delas) como variáveis independentes.
 
 Os alunos devem:
 
