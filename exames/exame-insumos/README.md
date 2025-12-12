@@ -1,4 +1,4 @@
-# Exame B: Communities & Crime 2025.2
+# Exame B: Insumos Agriculas 2025.2
 
 Este exame será conduzido no formato de uma análise de dados crítica, aplicando conceitos de probabilidade e estatística na prática. O objetivo principal é analisar um conjunto de dados real de insumos agrícolas na Amazônia, de modo que os alunos avaliem os impactos das mudanças climáticas na produção agrícola e reflitam criticamente sobre as relações entre clima, práticas produtivas e sustentabilidade na região. 
 
