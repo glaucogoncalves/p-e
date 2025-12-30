@@ -147,7 +147,7 @@ Cada entrega será avaliada com base nos seguintes critérios:
 
 3. **Criatividade [1,0 pts]:** Este critério avalia a originalidade e a profundidade analítica. Valoriza-se a proatividade em ir além do roteiro básico: isso inclui a engenharia de atributos (criação ou transformação inteligente de variáveis para capturar novos padrões), a formulação de hipóteses de que fujam do óbvio e a exploração de relações complexas entre variáveis. Soluções que demonstrem curiosidade investigativa, insights não triviais ou o uso correto de técnicas complementares (que vão além das mostradas em sala) para enriquecer a análise serão recompensadas.
 
-Para as Etapas de 1 a 2 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET0e , ET02 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
+Para as Etapas de 1 a 2 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01 , ET02 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
 
 ### Pontuação Adicional
 
