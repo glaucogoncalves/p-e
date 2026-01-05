@@ -136,7 +136,7 @@ Sua submissão será um arquivo ZIP contendo os arquivos abaixo listados. O note
   └── ExameB_<ETX>_<Estudante1>_<Estudante2>.ipynb
 ```
 
-**Atenção**: você pode criar seu notebook usando o Google Colab se desejar, mas deve exportá-lo no formato requerido antes do envio. Não serão aceitos o envio por link de compartilhamento.
+**Atenção**: você pode criar seu notebook usando o Google Colab se desejar, mas deve exportá-lo no formato requerido antes do envio. Não serão aceitos envios por link de compartilhamento.
 
 ## Avaliação
 
