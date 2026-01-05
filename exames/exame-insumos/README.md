@@ -2,7 +2,7 @@
 
 Este exame será conduzido no formato de uma análise de dados crítica, aplicando conceitos de probabilidade e estatística na prática. O objetivo principal é analisar um conjunto de dados real de insumos agrícolas na Amazônia, de modo que os alunos avaliem os impactos das mudanças climáticas na produção agrícola e reflitam criticamente sobre as relações entre clima, práticas produtivas e sustentabilidade na região. 
 
-Os estudantes trabalharão em duplas e deverão explorar, analisar e modelar os dados com foco em respostas relevantes para cadeias produtivas amazônicas, considerando a influência de fatores ambientais, socioeconômicos e climáticos.
+O exame deverá ser realizado **obrigatoriamente em duplas**. As equipes deverão explorar, analisar e modelar os dados com foco em respostas relevantes para cadeias produtivas amazônicas, considerando fatores ambientais, socioeconômicos e climáticos.
 
 ## Sumário
 
@@ -28,7 +28,11 @@ O conjunto de dados é separado em arquivos .csv (Comma-Separated-Values), cada 
 
     - AC: Acre
 
-Os estudantes receberão esse conjunto de arquivos contendo variáveis relacionadas à produção, características ambientais e atributos físico-químicos associados a PFNM e outros insumos agrícolas amazônicos. Os alunos deverão escolher um estado dentre os 6 disponíveis, e escolher uma cultura alimentícia específica entre eles para trabalhar durante todo o exame.
+Os estudantes receberão esse conjunto de arquivos contendo variáveis relacionadas à produção, características ambientais e atributos físico-químicos associados a PFNM e outros insumos agrícolas amazônicos.
+
+**Os alunos deverão obrigatoriamente escolher um único estado dentre os disponíveis e uma única cultura alimentícia específica para trabalhar durante todo o exame. Essa escolha deverá ser mantida ao longo de todas as etapas da avaliação, não sendo permitidas alterações.**
+
+**Não será permitido que duas duplas escolham a mesma combinação de estado e cultura alimentícia. Cada dupla deverá trabalhar com uma combinação exclusiva.**
 
 
 Exemplos de variáveis que o compõem:
@@ -151,9 +155,7 @@ Para as Etapas de 1 a 2 serão geradas notas de 0 a 10 e serão lançadas como a
 
 ### Pontuação Adicional
 
-Nas etapas 1 e 2 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
-
-Na etapa 3, algumas equipes serão novamente convidadas a apresentarem seus trabalhos. A apresentação será avaliada e as equipes que conseguirem ter bons insights, justificá-los e comunicá-los com clareza receberão pontos extras para os estudantes apresentadores. 
+Ao final da Etapa 3, as equipes serão convidadas a apresentar seus trabalhos. Nessa apresentação, os avaliadores poderão atribuir **até 1,0 ponto extra** às equipes que demonstrarem clareza na comunicação, qualidade dos insights e boa justificativa das análises realizadas.
 
 ## Sugestões de Formatação e Organização
 
