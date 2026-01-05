@@ -121,7 +121,7 @@ Salienta-se que é necessário justificar cada etapa da construção do modelo, 
   * Um notebook contendo:
     * O modelo final com explicações sobre as decisões tomadas
     * Análise dos resíduos
-  * O arquivo ```submission.csv```
+    * As previsões do modelo sobre o conjunto de validação, acompanhadas da discussão dos resultados
   * Os arquivos devem estar em um zip como explicado em [Formato de Submissão](#formato-de-submissão)
 
 ---
@@ -133,11 +133,8 @@ Sua submissão será um arquivo ZIP contendo os arquivos abaixo listados. O note
 ```text
   ExameB_<ETX>_<Estudante1>_<Estudante2>.zip
   ├── <dataset_estado>.csv
-  ├── predictions.csv (Somente na ET04)
   └── ExameB_<ETX>_<Estudante1>_<Estudante2>.ipynb
 ```
-
-O arquivo `submission.csv` deve ser enviado apenas na Etapa 4. Após organizado, o zip deverá ser enviado via SIGAA conforme as datas informadas.
 
 **Atenção**: você pode criar seu notebook usando o Google Colab se desejar, mas deve exportá-lo no formato requerido antes do envio. Não serão aceitos o envio por link de compartilhamento.
 
@@ -203,7 +200,7 @@ Ao final de cada processamento signifativo, imprimir informações do dataset an
   print("Estatísticas básicas:\n", df.describe().T)
 ```
 
-### 2.3 Justificativas Textuais
+### 2.4 Justificativas Textuais
 
 * Para cada tratamento de dados (outliers, imputação, codificação), inserir uma célula Markdown intitulada **Justificativa** com fundamentação teórica ou empírica.
 
