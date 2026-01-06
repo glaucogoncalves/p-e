@@ -7,7 +7,7 @@ Este conjunto de dados foi estruturado para estudar a relação entre a produç�
 O estudo deve ser realizado **por Estado (UF)**. O aluno deve selecionar um estado, escolher um insumo agrícola como variável alvo e utilizar as variáveis climáticas desse estado como preditores.
 
 - **Arquivos de Entrada:**
-  1. `producao_agricola_{UF}.csv`: Contém a série histórica da produção (Variável Dependente).
+  1. `insumos_{UF}.csv`: Contém a série histórica da produção (Variável Dependente).
   2. `features_{UF}.csv`: Contém as variáveis climáticas e ambientais mensais (Variáveis Preditoras).
 
 - **Total de variáveis:** Varia conforme o estado (devido ao número de estações fluviométricas locais).
@@ -49,7 +49,7 @@ Estas variáveis são usadas para fazer o *merge* (junção) entre o dataset de 
 
 ## Variável Dependente (Alvo)
 
-Localizada nos arquivos `producao_agricola_{UF}.csv`. O aluno deve escolher **uma** coluna deste arquivo para ser o $Y$ (alvo) do modelo.
+Localizada nos arquivos `insumos_{UF}.csv`. O aluno deve escolher **uma** coluna deste arquivo para ser o $Y$ (alvo) do estudo (e consequentemente do modelo).
 
 | Nome da Variável | Descrição | Tipo |
 | :--- | :--- | :--- |
