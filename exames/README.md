@@ -4,3 +4,4 @@ Abaixo estão listados diferentes desafios que são usados na disciplina na form
 
 * [Preços de Casas](./exame-b-house-prices/)
 * [Índices de Crimes](./exame-b-crimes/)
+* [Insumos Agrícolas](./exame-insumos/)
