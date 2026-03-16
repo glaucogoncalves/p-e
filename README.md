@@ -15,38 +15,33 @@ Materiais utilizados na disciplina EC01019 - PROBABILIDADE E ESTATISTICA ministr
  
 # Introdução
 
-## Objetivo:
+## Objetivo
 
 Desenvolver o pensamento estocástico necessário para compreensão da incerteza no mundo e desenvolver habilidades com ferramental básico e clássico para manipulação de dados, verificação de hipóteses e condução de experimentos aleatórios.
 
-## Habilidades e competências:
+## Habilidades e competências
 
-De modo geral, ao final do curso, o estudante será capaz de compreender e manipular modelos probabilísticos e estatísticos, realizar inferência a partir de dados amostrais e conduzir experimentos aleatórios com o auxílio do computador. O estudante deve consultar o link abaixo para ter uma visão específica dos termos, fatos e habilidades que deverá adquirir em cada módulo do curso.
+De modo geral, ao final do curso, o estudante será capaz de compreender e manipular modelos probabilísticos e estatísticos, realizar inferência a partir de dados amostrais e conduzir experimentos aleatórios com o auxílio do computador. O estudante deve consultar o [Plano de estudos](#plano-de-estudos) abaixo para ter uma visão específica dos termos, fatos e habilidades que deverá adquirir em cada módulo do curso.
 
-https://docs.google.com/spreadsheets/d/15R9ZITIc7s0otTVd9TS286px-yRMrCe_ODU0XgsQ6pk/pubhtml?gid=1068955295&single=true
+## Procedimentos didáticos
 
-## Procedimentos didáticos:
+O conteúdo teórico e demonstrações práticas serão ministradas por meio de encontros síncronos presenciais. Como suporte, os estudantes serão direcionados também para vídeos e textos curtos selecionados a partir de uma curadoria cuidadosa de diferentes fontes e de autoria do próprio docente.
 
-O conteúdo teórico e demonstrações práticas serão ministradas por meio de encontros síncronos presenciais. Como suporte, os estudantes serão direcionados também para vídeos e textos curtos selecionados a partir de uma curadoria cuidadosa de diferentes fontes e de autoria do próprio docente. Preferencialmente, serão utilizados os materiais disponíveis na plataforma Khan Academy, onde foi construída uma turma para acompanhamento dos discentes. 
+Para fixação do conteúdo serão disponibilizados experimentos práticos e listas de exercícios.
 
-Para fixação do conteúdo serão disponibilizados exercícios auto-corrigidos por meio da plataforma Khan Academy. O estudante será encorajado ainda a realizar experimentos práticos (denominados laboratórios), listas de exercícios e pesquisa sobre tópicos específicos.
-
-## Ementa:
+## Ementa
 
 Introdução à probabilidade. Análise Combinatória. Variáveis aleatórias unidimensionais. Funções de uma variável aleatória e valores esperados. Esperança Matemática. Distribuições conjuntas de probabilidade. Variáveis aleatórias de duas ou mais dimensões (vetores aleatórios). Importantes distribuições discretas e contínuas. A distribuição normal. Introdução à estatística e descrição de dados. Amostras aleatórias e distribuições de amostras. Estimação de parâmetros. Testes de hipóteses. Projeto e análise de experimentos estatísticos. Regressão linear simples e correlação. Regressão múltipla.
 
-## Procedimentos de Avaliação da Aprendizagem:	
-A frequência será computada pela presença nos encontros e realização das atividades.
+## Procedimentos de Avaliação da Aprendizagem
 
-A avaliação individual de cada estudante será construída com base em uma avaliação holística com diversas atividades, compreendendo: Laboratórios, Exercícios na plataforma Khan Academy e outros exercícios selecionados pelo docente (50%), Exame A (25%) e Exame B (25%).
+A **frequência** será computada pela presença nos encontros e realização das atividades.
 
-Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), REG([5,7[), BOM ([7,9[), EXC([9,10]).    
+A **avaliação individual** de cada estudante será construída com base em uma avaliação holística com diversas atividades, compreendendo: Práticas e outros exercícios selecionados pelo docente (50%), Exame A (25%) e Exame B (25%).
+
+Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), REG([5,7[), BOM ([7,9[), EXC([9,10]).
 
 # Plano de estudos
-
-## Notas
-
-## Conteúdo
 
 | <a href='https://docs.google.com/presentation/d/13A9858jJfUX6pqx1ZYWN3YBXRNogXG9on6cey2KaD_I/edit#slide=id.gf23522db66_0_137' target="_blank"><img alt='googleslides' src='https://img.shields.io/badge/Google_Slides-100000?style=flat&logo=googleslides&logoColor=FBBC04&labelColor=FFFFFF&color=FFFFFF'/></a> | **Introdução à disciplina**                                          |
 |:-----------|:-----------------------------------------------------|
@@ -69,7 +64,7 @@ Baseado na nota final, o estudante receberá o seguinte conceito: INS([0,5[), RE
 | **Definições:**| Váriavel Aleatória (VA), Distribuição de probabilidade, VAs independentes, Esperança, Esperança de VAs, Variância de VAs, Covariância, Desigualdade de Markov, Desigualdade de Chebyshev, Lei dos Grandes Números, Variáveis aleatórias de duas ou mais dimensões, Vetores aleatórios, Distribuições de probabilidade conjunta. |
 | **Termos:**    | VAs contínuas, VAs discretas, função de densidade de probabilidade, fdp, pdf, cdf, funções de densidade acumulada, amostras independentes e identicamente distribuídas, i.i.d. |
 | **Fatos:**     | Propriedades das funções de densidade de probabilidade, Esperança é linear, Propriedades da Variância, VAs independentes tem covariância zero, Variância como Covariância. |
-| **Habilidades:** |Interpretar a notação de funções de probabilidade de variáveis aleatórias (ex: $\(P(X = x)\); \(f(x)\); \(F(x)\); \(f(x \mid y)\))$, interpretar e calcular a esperança de uma variável aleatória ($\(\mathbb{E}[X]\$)).|
+| **Habilidades:** |Interpretar a notação de funções de probabilidade de variáveis aleatórias (ex: $(P(X = x); f(x); F(x); f(x \mid y))$, interpretar e calcular a esperança de uma variável aleatória ($\mathbb{E}[X]$).|
 
 | <a target="_blank" href="https://colab.research.google.com/github/glaucogoncalves/p-e/blob/main/lectures/05_probability_distributions.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a> | **Funções de Probabilidade Úteis** |
 |:-----------|:-----------------------------------------------------|
