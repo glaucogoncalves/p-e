@@ -16,33 +16,25 @@ O conjunto de dados fornecido (arquivo **`houses.csv`**) contém informações d
 
 O exame será dividido em **quatro etapas**, com **entregas sucessivas em datas disponibilizadas no SIGAA**. Cada etapa aborda um componente específico do processo de análise de dados e modelagem preditiva.
 
-### Etapa 1: Análise Unidimensional
+### Etapa 1: Análise Unidimensional e em Duas ou Mais Dimensões
 
-Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma isolada. O objetivo é compreender melhor o conjunto de dados e identificar possíveis problemas (como valores ausentes ou *outliers*).
+Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma isolada, além de investigar as relações entre elas. O objetivo é compreender melhor o conjunto de dados, identificar possíveis problemas (como valores ausentes ou *outliers*) e, com especial atenção, analisar as correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais atributos serão mais importantes nas fases seguintes.
 
 - **Possíveis análises:**
   - Calcular estatísticas descritivas para variáveis numéricas, como média, mediana, desvio padrão e assimetria.
   - Criar tabelas de frequência para variáveis categóricas, identificando as categorias mais frequentes e aquelas menos representadas.
   - Gerar gráficos como histogramas e *boxplots* para investigar distribuições e possíveis outliers.
   - Relatar valores ausentes nas variáveis e sugerir estratégias para tratá-los.
-
-- **Entrega:**
-  - Um notebook contendo as análises, gráficos e explicações claras de cada etapa.
-
-### Etapa 2: Análise em duas ou mais dimensões
-
-Na segunda etapa, os alunos deverão explorar as relações entre variáveis, com especial atenção às correlações entre `SalePrice` e as outras variáveis do dataset. Essa etapa é crucial para identificar quais variáveis serão mais importantes nas etapas à frente.
-
-- **Possíveis análises:**
   - Gerar gráficos de dispersão para explorar as relações entre `SalePrice` e variáveis contínuas.
   - Criar boxplots ou violin plots para investigar como `SalePrice` varia entre categorias (ex.: `Neighborhood` ou `MSZoning`).
   - Calcular e interpretar uma matriz de correlação para as variáveis numéricas.
   - Relatar os padrões encontrados, destacando variáveis potencialmente relevantes para a modelagem.
 
 - **Entrega:**
-  - Um notebook contendo os gráficos, análises e interpretações das relações observadas.
+  - Um notebook contendo as análises isoladas e as relações observadas, com gráficos e explicações claras de cada passo.
+  
 
-### Etapa 3: Testes de Hipótese
+### Etapa 2: Testes de Hipótese
 
 Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
 
@@ -54,7 +46,7 @@ Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão
 - **Entrega:**
   - Um notebook explicando as hipóteses levantadas, os testes realizados (com a devida checagem das suposições) e a interpretação conclusiva sobre cada hipótese.
 
-### Etapa 4: Modelagem Preditiva
+### Etapa 3: Modelagem Preditiva
 
 Na última etapa, os alunos deverão construir um modelo de regressão linear múltipla para prever os preços de venda das casas, ou seja, a variável dependente é `SalePrice` e as demais podem ser usadas (todas ou apenas parte delas) como variáveis independentes.
 
@@ -77,11 +69,11 @@ Cada entrega será avaliada com base nos seguintes critérios:
 2. **Clareza:** [4 pts] O notebook está organizado, com explicações claras e gráficos bem apresentados?
 3. **Criatividade:** [2 pts] Há originalidade na abordagem, com insights ou soluções criativas?
 
-Para as Etapas de 1 a 3 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01, ET02 e ET03 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
+Para as Etapas de 1 e 2 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01 e ET02 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
 
 **Pontuação Adicional**
 
-Nas etapas 2, 3 e 4 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
+Nas etapas 1, 2 e 3 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
 
 Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
 
