@@ -69,13 +69,14 @@ Cada entrega será avaliada com base nos seguintes critérios:
 2. **Clareza:** [4 pts] O notebook está organizado, com explicações claras e gráficos bem apresentados?
 3. **Criatividade:** [2 pts] Há originalidade na abordagem, com insights ou soluções criativas?
 
-Para as Etapas de 1 e 2 serão geradas notas de 0 a 10 e serão lançadas como as atividades ET01 e ET02 em nossa planilha. A etapa de modelagem será lançada como Exame B. Isto significa que esta atividade terá maior peso na nota.
+Além das entregas acima, serão realizadas apresentações da seguinte forma. Ao final da etapa 1, metade das duplas será sorteadas aleatoriamente para apresentar os resultados da Etapa 1 (ET01), em sala de aula, e após a entrega da Etapa 2 (ET02), o restante das duplas deverá apresentar os resultados desta etapa. A nota dessa apresentação será contabilizada como uma das atividades (APR). Após a entrega da Etapa 3 (ET03), **todas** as duplas deverão apresentar seu trabalho final para o professor. A nota desta apresentação será a nota do Exame B.
+
+> As apresentações deverão ser feitas em 10 minutos (7 para apresentação e 3 para perguntas). Um estudante da dupla será sorteado para apresentar e o outro deverá responder às perguntas feitas pelo professor e pela turma.
+
 
 **Pontuação Adicional**
 
-Nas etapas 1, 2 e 3 um total de 5 duplas serão arbitrariamente convidadas para apresentar suas entregas em sala de aula. As duplas serão recompensadas com 1 ponto extra na respectiva etapa.
-
-Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
+Na etapa 3, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
 
 - **1º lugar:** 2 pontos extras no Exame B.
 - **2º e 3º lugares:** 1 ponto extra no Exame B.
@@ -84,7 +85,6 @@ Na etapa 4, a organização irá testar os modelos submetidos em um conjunto de 
 
 ## Entrega e Submissão
 
-- ~~Os notebooks devem ser criados no **Google Colab** e o link de compartilhamento deve ser enviado via SIGAA.~~
 - Os notebooks devem ser criados no Google Colab em Python e o arquivo deve ser enviado via SIGAA.
 - Entregas atrasadas não serão consideradas.
 
