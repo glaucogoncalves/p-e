@@ -94,4 +94,98 @@ Na etapa 3, a organização irá testar os modelos submetidos em um conjunto de 
 
 Este exame/competição foi estruturado para transformar a avaliação em uma experiência prática, que simula situações reais enfrentadas por cientistas de dados. Mantenha o espírito de colaboração e criatividade, e aproveite esta oportunidade para aprender e crescer!
 
+---
+
+## Sugestões de Formatação e Organização
+
+### Estrutura do Notebook
+
+* **Resumo e seções**: Adicione um breve resumo no início do seu notebook explicando objetivos e passos realizados. Além disso, cada seção do notebook inicia com um cabeçalho do tipo ## Seção X – Nome da Seção.
+
+* **Títulos em Markdown**:
+
+    Títulos em Markdown devem ser usados para estruturar o notebook de forma hierárquica e facilitar a leitura. Utilize níveis como ## para etapas principais e ### para subtópicos, garantindo organização visual e navegabilidade.
+
+  * `## Etapa 1 – Estatísticas Univariadas`
+  * `### 1.1 Análise de Distribuições`
+
+* **Comentários de célula**:
+
+    Cada célula de código deve começar com um comentário breve indicando seu propósito. O código deve seguir o padrão PEP8, com nomes claros, indentação correta e linhas com no máximo 100 caracteres para garantir legibilidade e padronização.
+
+```python
+  # Objetivo: Descrição sucinta
+```
+
+### Comentários e Funções
+
+* **Modularização**: ao longo do notebook, funções devem ser criadas para representar as etapas do pipeline (ex.: carregamento, tratamento, visualização, modelagem). Não há um número mínimo fixo, mas espera-se que as funções tornem o código reutilizável e organizado, com justificativa clara do seu papel na análise. Um exemplo:
+
+```python
+def load_data(path):
+    """Carrega o CSV e retorna DataFrame."""
+    # ...
+    return df
+```
+
+* **Docstrings**: cada função deve incluir uma breve descrição, listando parâmetros e valores retornados.
+
+A construção de funções ao longo do notebook é fundamental para a clareza e reutilização do código. Em vez de repetir comandos, os alunos devem encapsular etapas em funções nomeadas e bem documentadas, explicando seu uso dentro do fluxo da análise.
+
+### Relatórios de Saúde do Dataset
+
+Ao final de cada processamento signifativo, imprimir informações do dataset antes e depois. Um exemplo:
+
+```python
+  print("Shape:", df.shape)
+  print("Missing por coluna:\n", df.isna().sum())
+  print("Estatísticas básicas:\n", df.describe().T)
+```
+
+### Justificativas Textuais
+
+* Para cada tratamento de dados (outliers, imputação, codificação), inserir uma célula Markdown intitulada **Justificativa** com fundamentação teórica ou empírica.
+
+* Para testes estatísticos:
+
+  * Formular claramente as hipóteses nula (H₀) e alternativa (H₁).
+  * Definir o **nível de significância** (por exemplo, α = 0,05).
+  * Escolher e justificar o teste estatístico adequado (ex.: correlação de Pearson, Spearman, teste t, ANOVA).
+  * Apresentar os **valores das estatísticas** calculadas e o **p-value**.
+  * Concluir se rejeita ou não H₀, com base no p-valor.
+  * Incluir uma **tabela resumida** com os principais resultados.
+
+---
+
+**Exemplo**: Hipótese 1 – Relação entre `racepctblack` e `violentPerPop`
+
+**Hipóteses formuladas:**
+
+* H₀: Não há correlação significativa entre `racepctblack` e `violentPerPop`.
+* H₁: Existe correlação significativa entre `racepctblack` e `violentPerPop`.
+
+**Teste aplicado:** Correlação de Pearson  
+**Nível de significância:** α = 0,05
+
+**Resultados:**
+
+| Estatística | Valor |
+|-------------|-------|
+| Correlação (r) | *preencher* |
+| p-value        | *preencher* |
+
+**Conclusão:** Escreva aqui se rejeita ou não H₀, e o que isso implica.
+
+### Reprodutibilidade
+
+* **Random seed fixo** em todas operações aleatórias (`random_state=2025`).
+* **Versões de pacotes**: no bloco inicial, exibir:
+
+```python
+  import pandas as pd, numpy as np, sklearn
+  print(pd.__version__, np.__version__, sklearn.__version__)
+```
+
+---
+
 Boa sorte, e que vença a melhor análise!
