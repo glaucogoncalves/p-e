@@ -36,7 +36,7 @@ Na primeira etapa, os alunos terão a tarefa de explorar cada variável de forma
 
 ### Etapa 2: Testes de Hipótese
 
-Na terceira etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
+Na segunda etapa, os alunos elaborarão hipóteses (no mínimo três) e usarão a estatística inferencial para validar as hipóteses usando os dados disponíveis.
 
 - **Possíveis análises:**
   - O preço das casas aumenta com o aumento do tamanho das casas?
