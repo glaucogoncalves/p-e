@@ -74,9 +74,26 @@ Além das entregas acima, serão realizadas apresentações da seguinte forma. A
 > As apresentações deverão ser feitas em 10 minutos (7 para apresentação e 3 para perguntas). Um estudante da dupla será sorteado para apresentar e o outro deverá responder às perguntas feitas pelo professor e pela turma.
 
 
-**Pontuação Adicional**
+## Exame B: Apresentação e Arguição Final
 
-Na etapa 3, a organização irá testar os modelos submetidos em um conjunto de dados oculto. As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
+Após a entrega da Etapa 3 (ET03), cada aluno da dupla deverá individualmente se dirigir à sala de aula na data e horário estipulados e terá 6 minutos para responder a perguntas feitas pelo professor sobre a Etapa 3. O resultado desta arguição gerará a nota do aluno para o Exame B. 
+
+Este exame irá funcionar da seguinte forma:
+
+* **Distribuição das Perguntas:** Serão feitas **2 perguntas para cada aluno**.
+* **Pontuação base:** Cada pergunta valerá **5 pontos**.
+* **Assunto**: Aspectos teóricos sobre regressão linear e o notebook entregue em sua Etapa 3.
+
+
+
+## Pontuação Adicional da Etapa 3
+
+Para competir pela pontuação adicional, o aluno deverá criar uma função no final do código da Etapa 3, que utilize o modelo de regressão treinado para ler um arquivo de teste cego chamado TesteRegressao.csv e gerar um novo arquivo CSV contendo apenas os valores de SalePrice preditos. O arquivo gerado deverá, obrigatoriamente, ser salvo com a nomenclatura no formato NOME_ALUNO1-NOME_ALUNO2.csv.
+
+> Dica para a validação: Para garantir que sua função foi executada sem erros, disponibilizamos o arquivo exemplo.csv neste repositório. Ele contém as 5 primeiras linhas do arquivo de teste oficial com a mesma estrutura de variáveis do dataset original, mas sem a coluna alvo SalePrice. Renomeie este arquivo temporariamente para TesteRegressao.csv no seu Google Colab e simule a geração do arquivo de saída.
+
+
+As equipes com os melhores desempenhos em termos de $R^2$ sobre os dados ocultos serão recompensadas:
 
 - **1º lugar:** 2 pontos extras no Exame B.
 - **2º e 3º lugares:** 1 ponto extra no Exame B.
