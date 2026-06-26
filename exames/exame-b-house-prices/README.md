@@ -53,6 +53,7 @@ Na última etapa, os alunos deverão construir um modelo de regressão linear m�
 - **Tarefas:**
   - Ajustar um modelo de **regressão linear** utilizando o conjunto de dados. Convém realizar testes mudando as variáveis independentes usadas no modelo e realizar possíveis transformações.
   - Realizar a análise dos resíduos do modelo final.
+  - Realizar análise de significância com ANOVA.
 
 - **Entrega:**
   - Um notebook contendo:
