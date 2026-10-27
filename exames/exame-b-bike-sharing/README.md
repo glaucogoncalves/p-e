@@ -50,7 +50,7 @@ Com o conhecimento adquirido na exploração, a dupla deve propor **pelo menos t
 
 ### Etapa 3: Construção do Modelo
 
-Por fim, a dupla deve desenvolver um modelo de **regressão linear múltipla** que estime a demanda por bicicletas. A variável resposta é `Rented_Bike_Count`; como variáveis explicativas, podem ser usadas todas as demais colunas ou apenas as que a dupla julgar relevantes, além de novas variáveis criadas a partir delas.
+Por fim, a dupla deve desenvolver um modelo de **regressão linear** que estime a demanda por bicicletas. A variável resposta é `Rented_Bike_Count`; como variáveis explicativas, podem ser usadas todas as demais colunas ou apenas as que a dupla julgar relevantes, além de novas variáveis criadas a partir delas.
 
 - **O que fazer:**
   - Ajustar o modelo de **regressão linear**, testando diferentes combinações de variáveis e possíveis transformações.
